@@ -1,0 +1,526 @@
+main , main .btn{
+    font-size: .8125rem;
+
+}
+main .btn-light:hover{
+    color: white;
+    background-color: rgb(59, 48, 154);
+}
+.parallax-container {
+    
+    width: 100%;
+    overflow: hidden;
+    float: left;
+}
+
+.mainBook{
+    padding-bottom: 100px !important;
+}
+.bookShop-header{
+    width: 100%;
+}
+.wrapper-white{
+    padding-top: 200px;
+}
+.stat {
+    color: #fff;
+    padding: 10px;
+    overflow: hidden;
+}
+.statContent{
+    text-align: center;
+        width: 100%;
+        min-height: 180px;
+        border: 1px solid #fff;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        justify-content: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+.statIcon{
+    font-size: 45px;
+}
+.bestSellingHeader{
+    width: 100%;
+    float: left;
+    margin: 0 0 15px;
+    padding: 0 0px 30px 0;
+    border-bottom: 1px solid #dbdbdb;
+}
+.bestSellingHeader h2 span {
+    display: block;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 0 0 10px;
+}
+.nav-btns button{
+    border: 1px solid #c2c2c2;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    display: flex;
+    transition: all .3s ease-in-out;
+    align-items: center;
+    justify-content: center;
+}
+.nav-btns button:hover{
+    background-color: rgb(59, 48, 154);
+    border: 1px solid rgb(59, 48, 154);
+    color: white !important;
+}
+.tg-bestsellingbooks .item .tg-postbook {
+    padding: 15px 0 0;
+}
+.tg-featureimg {
+    margin: 0;
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+.tg-bookimg {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+.tg-frontcover {
+    z-index: 2;
+    width: 100%;
+    float: left;
+    position: relative;
+}
+.tg-frontcover:before {
+    top: 0;
+    left: 0;
+    z-index: 3;
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: -moz-linear-gradient(left, rgba(0,0,0,0) 8%, rgba(0,0,0,0.1) 5%, rgba(0,0,0,0) 13%);
+    background: -webkit-linear-gradient(left, rgba(0,0,0,0) 8%, rgba(0,0,0,0.1) 5%, rgba(0,0,0,0) 13%);
+    background: linear-gradient(to right, rgba(0,0,0,0) 8%, rgba(0,0,0,0.1) 5%, rgba(0,0,0,0) 13%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#00000000',GradientType=1 );
+}
+.tg-bookimg img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.tg-backcover {
+    top: 2%;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 96%;
+    overflow: hidden;
+    background: #000;
+    position: absolute;
+}
+.tg-postbook:hover .tg-featureimg {
+    padding: 9px 13px 9px 0;
+}
+.tg-postbook:hover .tg-bookimg {
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform: perspective(1000px) rotateY(-30deg) rotateZ(0deg);
+    -moz-transform: perspective(1000px) rotateY(-30deg) rotateZ(0deg);
+    -ms-transform: perspective(1000px) rotateY(-30deg) rotateZ(0deg);
+    -o-transform: perspective(1000px) rotateY(-30deg) rotateZ(0deg);
+    transform: perspective(1000px) rotateY(-30deg) rotateZ(0deg);
+}
+.tg-postbook:hover .tg-backcover {
+    left: 18px;
+}
+.tg-postbook:hover .tg-btnaddtowishlist {
+    opacity: 1;
+    bottom: 50%;
+    visibility: visible;
+}
+.tg-featureimg .tg-btnaddtowishlist {
+    bottom: 35%;
+    left: 0;
+    opacity: 0;
+    z-index: 4;
+    width: 100%;
+    margin: 0 0 -17px;
+    visibility: hidden;
+    position: absolute;
+}
+.tg-btnaddtowishlist {
+    color: #fff;
+    padding: 0 10px;
+    text-align: center;
+    background: #f16945;
+    display: inline-block;
+    vertical-align: middle;
+    text-transform: capitalize;
+    font: 400 13px/34px 'Work Sans', Arial, Helvetica, sans-serif;
+}
+.tg-backcover:after {
+    top: 4%;
+    right: 3px;
+    z-index: 2;
+    width: 15px;
+    height: 92%;
+    content: '';
+    position: absolute;
+    background: url(../../Assests/bookpattren.png) no-repeat;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -ms-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+.tg-backcover {
+    top: 2%;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 96%;
+    overflow: hidden;
+    background: #000;
+    position: absolute;
+}
+ p a, a, button.tg-btn, .tg-socialicons li a, .tg-roundicontext, .tg-roundicontext .tg-usericonholder, .tg-themedropdownmenu, .sub-menu, .mega-menu, .tg-themetabnav li a, .tg-themetabcontent, .tg-featureimg, .tg-bookimg, .tg-backcover, .owl-prev, .owl-next, .tg-postbook, .tg-author figure, .tg-author figure a, .tg-author figure a img, .tg-post figure, .tg-post figure a, .tg-post figure a img, textarea, .tg-widget ul li figure, .tg-widgetinstagram ul li figure, .tg-widgetinstagram ul li figure figcaption, .tg-quantityholder .minus, .tg-quantityholder .plus, .tg-alsoavailable figure figcaption ul li span, .tg-prevpost figure, .tg-nextpost figure, .tg-comments li .tg-authorbox, .tg-comments li .tg-authorbox .tg-bottomarrow, .tg-bookimg, .tg-hovercontent .tg-description {
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+.tg-btnaddtowishlist i, .tg-btnaddtowishlist span {
+    display: inline-block;
+    vertical-align: top;
+    font-size: inherit;
+    line-height: inherit;
+}
+.tg-bookscategories {
+    width: 100%;
+    float: left;
+    margin: 0 0 20px;
+    font-size: 13px;
+    line-height: 13px;
+    list-style: none;
+    padding: 0 0 8px;
+    border-bottom: 1px solid #dbdbdb;
+}
+.tg-bookscategories li:first-child {
+    padding-left: 0;
+}
+.tg-bookscategories li {
+    float: left;
+    position: relative;
+    padding: 0 2px 0 8px;
+    line-height: inherit;
+    list-style-type: none;
+}
+.tg-bookscategories li + li:before {
+    left: 0;
+    bottom: 0;
+    content: ',';
+    color: inherit;
+    position: absolute;
+    font-size: inherit;
+    line-height: inherit;
+}
+.tg-bookscategories li a {
+    color: #666;
+    display: block;
+    text-decoration: none;
+}
+.tg-postbookcontent {
+    width: 100%;
+    float: left;
+    padding: 15px 0 0;
+}
+.tg-booktitle h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+}
+.tg-bookwriter {
+    width: 100%;
+    float: left;
+    font-size: 13px;
+    line-height: 13px;
+    padding: 0 0 6px;
+}
+.tg-bookwriter a {
+    color: #666;
+}
+.btnstyletwo {
+    float: right;
+    padding: 0 25px;
+    margin: 6px 0 0;
+    border-radius: 20px;
+}
+.tg-btn {
+    color: #666;
+    padding: 0 50px;
+    background: #fff;
+    position: relative;
+    text-align: center;
+    border-radius: 4px;
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid #dbdbdb;
+    text-transform: capitalize;
+    font: 400 13px/38px 'Work Sans', Arial, Helvetica, sans-serif;
+}
+.tg-postbook.tg-notag .tg-postbookcontent .tg-btn {
+    margin: 44px 0 0;
+}
+.tg-postbookcontent .tg-btn {
+    width: 100%;
+    margin: 20px 0 0;
+}
+.tg-btnstyletwo {
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+}
+.tg-sectionhead .tg-btn, .tg-btnstyletwo {
+    float: right;
+    padding: 0 25px;
+    margin: 6px 0 0;
+    border-radius: 20px;
+}
+.tg-btn:hover{
+    background-color: rgb(59, 48, 154);
+    color: white;
+}
+.tg-themedropdown.open .tg-themedropdownmenu {
+    top: 100%;
+    opacity: 1;
+    visibility: visible;
+}
+.tg-minicartbody {
+    width: 100%;
+    float: left;
+    padding: 0 33px 0 0;
+    border-bottom: 1px solid #dbdbdb;
+}
+.tg-minicarproduct {
+    width: 100%;
+    float: left;
+    padding: 0 0 20px;
+}
+.tg-minicarproduct figure {
+    float: left;
+    margin: 0 20px 0 0;
+    width: 70px;
+    height: 70px;
+}
+.tg-minicarproduct figure img {
+    z-index: 1;
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.tg-themedropdownmenu {
+    top: 100px;
+    right: 0;
+    border: 0;
+    opacity: 0;
+    transition: all 0s;
+    z-index: 10;
+    width: 330px;
+    padding: 15px;
+    display: block;
+    border-radius: 0;
+    margin: 25px 0 0;
+    visibility: hidden;
+    border-top: 3px solid;
+}
+ .tg-themedropdownmenu.show {
+    top: 30% !important;
+    opacity: 1;
+    visibility: visible;
+}
+.tg-minicarproductdata {
+    padding: 12px 0;
+
+    overflow: hidden;
+}
+.tg-minicarproductdata h5 a {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.mainFont{
+    font-size: .8125rem !important;
+}
+.tg-themedropdownmenu{
+    border-color: rgb(59, 48, 154);
+}
+.tg-btnemptycart {
+    float: left;
+    color: #666;
+    font-size: 13px;
+    line-height: 16px;
+}
+.tg-minicartfoot {
+    width: 100%;
+    float: left;
+    padding: 20px 0 0;
+}
+.tg-subtotal {
+    float: right;
+    font-size: 13px;
+    line-height: 16px;
+}
+.tg-subtotal strong {
+    font-size: 16px;
+}
+strong {
+    color: #414141;
+}
+.tg-minicartfoot .tg-btns {
+    padding: 20px 0 10px;
+}
+
+.tg-btns {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.tg-minicartfoot .tg-btns .tg-btn {
+    margin: 0;
+    padding: 0;
+    width: 45%;
+    float: left;
+}
+.tg-minicartfoot .tg-btns .tg-btn + .tg-btn {
+    float: right;
+}
+ .tg-btn.tg-active {
+    background-color: rgb(59, 48, 154);
+    color: white;
+    box-shadow: inset 0 -2px 0 0 rgb(59, 48, 154);
+}
+.tg-themedropdownmenu .tg-description p {
+    margin: 0;
+}
+.tg-featureditm figure img {
+    float: left;
+    width: 100%;
+    display: block;
+    max-width: none;
+}
+.tg-booktitle {
+    width: 100%;
+    float: left;
+    padding: 0 0 20px;
+}
+@media (max-width: 1199px){
+.tg-featureditmcontent .tg-booktitle h3 {
+    font-size: 35px;
+    line-height: 40px;
+}
+}
+.tg-booktitle h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+}
+@media (max-width: 1199px){
+.tg-featureditmcontent {
+    margin: 85px 0;
+}
+}
+.tg-featureditmcontent {
+    width: 100%;
+    float: left;
+    margin: 77px 0;
+    position: relative;
+    padding: 0 30% 0 0;
+}
+.tg-priceandbtn {
+    top: 0;
+    right: 0;
+    margin: 45px 0;
+    text-align: center;
+    position: absolute;
+}
+.tg-bglight {
+    padding: 50px 0px;
+    background: #f7f7f7;
+}
+.tg-themetagbox {
+    width: 100%;
+    float: left;
+    margin: 0 0 8px;
+    min-height: 16px;
+}
+.tg-themetag {
+    background: #f16945;
+}
+.tg-themetag {
+    float: left;
+    color: #fff;
+    padding: 0 5px;
+    font-size: 10px;
+    line-height: 16px;
+    position: relative;
+    text-transform: uppercase;
+    border-radius: 4px 0 0 4px;
+}
+.tg-themetag:before {
+    border-color: #f16945 !important;
+}
+.tg-themetag:before {
+    top: 0;
+    width: 0;
+    height: 0;
+    left: 100%;
+    content: '';
+    position: absolute;
+    border-left: 5px solid;
+    border-top: 8px solid transparent !important;
+    border-bottom: 8px solid transparent !important;
+}
+.tg-featureditmcontent .tg-booktitle h3 {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 43px;
+}
+.tg-featureditmcontent .tg-bookwriter {
+    font-size: 18px;
+    line-height: 18px;
+    padding: 0 0 10px;
+}
+.tg-featureditmcontent .tg-bookprice ins, .tg-featureditmcontent .tg-bookprice del {
+    float: left;
+    color: #484848;
+    font: bold 40px/40px 'Work Sans', Arial, Helvetica, sans-serif;
+}
+.tg-priceandbtn .tg-bookprice {
+    width: auto;
+    float: none;
+    display: block;
+    overflow: hidden;
+}
+.tg-featureditmcontent .tg-bookprice del {
+    font-size: 26px;
+    font-weight: 500;
+}

@@ -1,0 +1,971 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <!-- Css Files -->
+    <link rel="stylesheet" href="../../Css/Shared/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/6.6.4/css/flag-icons.min.css"
+        integrity="sha512-uvXdJud8WaOlQFjlz9B15Yy2Au/bMAvz79F7Xa6OakCl2jvQPdHD0hb3dEqZRdSwG4/sknePXlE7GiarwA/9Wg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+        integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+        integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../../Css/landingPage/Shared.css">
+    <link rel="stylesheet" href="../../Css/landingPage/Home.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <a href="Home.html" class="logo">
+                <img src="../../Assests/Rassel-logos_transparent.png" alt="">
+            </a>
+            <nav>
+                <ul class="nav navbar mx-auto nav-left">
+                    <li class="nav-item"><a class="nav-link" href="Home.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Courses.html">Courses</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Prices.html">Prices</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Books.html">Books</a></li>
+                    <li class="nav-item"><a class="nav-link" href="About.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Contact.html">Contact</a></li>
+                </ul>
+                <ul class="nav navbar  m-0 nav-right not-logged">
+                    <li class="nav-item d-flex align-items-center"><a class="nav-link p-1" href="singIn.html"><i
+                                class="far fa-user ms-1 me-1"></i> Sign In</a><span style="color: black">/</span><a
+                            class="nav-link p-1" href="signUp.html">Sign
+                            Up</a></li>
+                </ul>
+                <ul class="nav navbar  m-0 nav-right logged">
+                    <li class="nav-item d-flex align-items-center"><a class="nav-link p-2"
+                            href="../Student/StudentHome.html"><i class="fa fa-home ms-1 me-1"></i> Dashboard</a><span
+                            style="color: black">/</span>
+                        <a class="nav-link p-2 signOut" href="Home.html"><i class="fa fa-sign-out ms-1 me-1"></i> Sign
+                            Out</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="language-container ">
+                <button class="selected-lang"><span class="fi fi-us fis ms-1 me-1"></span> <span>EN</span> <i
+                        class="fa fa-chevron-down me-1 ms-1" style="font-size:12px"></i></button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href=""><span class="fi fi-us fis me-1 ms-1"></span>EN</a>
+                    <a class="dropdown-item" href=""><span class="fi fi-sa fis me-1 ms-1"></span>AR</a>
+                    <a class="dropdown-item" href=""><span class="fi fi-fr fis me-1 ms-1"></span>FR</a>
+                </div>
+            </div>
+            <div class="menu-btn">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <!-- Slider -->
+        <div class="slider-container">
+            <div id="carousel1" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-touch="true">
+
+                <!-- Indicators/dots -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2"></button>
+                </div>
+
+                <!-- The slideshow/carousel -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active" style="background-image: url(../../Assests/bg02.jpg);">
+                        <div class="bg-overlay">
+                            <div class="carousel-caption">
+                                <h1 class="display-4 text-white fw-bold mb-3">You Can Learn Anything With Us</h1>
+                                <p class="text-white-50 mx-auto">Launch your campaign and benefit from our
+                                    expertise on designing and managing conversion centered bootstrap v5 html page.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="background-image: url(../../Assests/bg03.jpg);">
+                        <div class="bg-overlay">
+                            <div class="carousel-caption">
+                                <h1 class="display-4 text-white fw-bold mb-3">You Can Learn Anything With Us</h1>
+                                <p class="text-white-50 mx-auto">طلق حملتك واستفد من
+                                    خبرة في تصميم وإدارة صفحة bootstrap v5 html التي تتمحور حول التحويل.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="background-image: url(../../Assests/bg02.jpg);">
+                        <div class="bg-overlay">
+                            <div class="carousel-caption">
+                                <h1 class="display-4 text-white fw-bold mb-3">You Can Learn Anything With Us</h1>
+                                <p class="text-white-50 mx-auto">Launch your campaign and benefit from our
+                                    expertise on designing and managing conversion centered bootstrap v5 html page.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Features Section -->
+        <div class="container features-container">
+            <div class="row m-0 features-absolute">
+                <div class="feature col-xl-4 col-lg-4 col-12">
+                    <div class="card p-4 text-center">
+                        <div class="card-icon">
+                            <i class="fa fa-graduation-cap"></i>
+                        </div>
+                        <div class="card-body mt-4">
+                            <h4 class="mt-4">
+                                <a href="" class="h5 title text-dark">Feature Title</a>
+                            </h4>
+                            <p class=" text-wrap text-muted">It is a long established fact that a reader will be of a
+                                page reader will be of a
+                                page when looking at its layout.wsdsada sadsad sadsad
+                            </p>
+                        </div>
+                        <i class="fa fa-graduation-cap full-img">
+
+                        </i>
+                    </div>
+                </div>
+                <div class="feature col-xl-4 col-lg-4 col-12">
+                    <div class="card p-4 text-center">
+                        <div class="card-icon">
+                            <i class="fa fa-graduation-cap"></i>
+                        </div>
+                        <div class="card-body mt-4">
+                            <h4 class="mt-4">
+                                <a href="" class="h5 title text-dark">Feature Title</a>
+                            </h4>
+                            <p class=" text-wrap text-muted">It is a long established fact that a reader will be of a
+                                page reader will be of a
+                                page when looking at its layout.wsdsada sadsad sadsad
+                            </p>
+                        </div>
+                        <i class="fa fa-graduation-cap full-img">
+
+                        </i>
+                    </div>
+                </div>
+                <div class="feature col-xl-4 col-lg-4 col-12">
+                    <div class="card p-4 text-center">
+                        <div class="card-icon">
+                            <i class="fa fa-graduation-cap"></i>
+                        </div>
+                        <div class="card-body mt-4">
+                            <h4 class="mt-4">
+                                <a href="" class="h5 title text-dark">Feature Title</a>
+                            </h4>
+                            <p class=" text-wrap text-muted">It is a long established fact that a reader will be of a
+                                page reader will be of a
+                                page when looking at its layout.wsdsada sadsad sadsad
+                            </p>
+                        </div>
+                        <i class="fa fa-graduation-cap full-img">
+
+                        </i>
+                    </div>
+                </div>
+            </div>
+            <div class="section-header text-center text-wrap">
+                <h1>Our Features</h1>
+                <p class="text-wrap mt-4">Start working with <span
+                        style="color:#2f55d4;font-weight: bold;">Rassel</span> that can provide
+                    everything you need to learn</p>
+            </div>
+            <div class="row m-0 mt-5 features-static">
+                <div class="feature2 d-flex col-xl-4 col-lg-4 col-md-2 col-12 mt-4">
+                    <div class="feature2-icon position-relative mb-auto">
+                        <i class="fa fa-check-circle"></i>
+                    </div>
+                    <div class="feature2-content px-3">
+                        <h5>Instant Chat</h5>
+                        <p>The most well known dummy text is the , which is said to have originated in the 16th century.
+                        </p>
+                    </div>
+                </div>
+                <div class="feature2 d-flex col-xl-4 col-lg-4 col-md-2 col-12 mt-4">
+                    <div class="feature2-icon position-relative mb-auto">
+                        <i class="fa fa-check-circle"></i>
+                    </div>
+                    <div class="feature2-content px-3">
+                        <h5>Instant Chat</h5>
+                        <p>The most well known dummy text is the , which is said to have originated in the 16th century.
+                        </p>
+                    </div>
+                </div>
+                <div class="feature2 d-flex col-xl-4 col-lg-4 col-md-2 col-12 mt-4">
+                    <div class="feature2-icon position-relative mb-auto">
+                        <i class="fa fa-check-circle"></i>
+                    </div>
+                    <div class="feature2-content px-3">
+                        <h5>Instant Chat</h5>
+                        <p>The most well known dummy text is the , which is said to have originated in the 16th century.
+                        </p>
+                    </div>
+                </div>
+                <div class="feature2 d-flex col-xl-4 col-lg-4 col-md-2 col-12 mt-4">
+                    <div class="feature2-icon position-relative mb-auto">
+                        <i class="fa fa-check-circle"></i>
+                    </div>
+                    <div class="feature2-content px-3">
+                        <h5>Instant Chat</h5>
+                        <p>The most well known dummy text is the , which is said to have originated in the 16th century.
+                        </p>
+                    </div>
+                </div>
+                <div class="feature2 d-flex col-xl-4 col-lg-4 col-md-2 col-12 mt-4">
+                    <div class="feature2-icon position-relative mb-auto">
+                        <i class="fa fa-check-circle"></i>
+                    </div>
+                    <div class="feature2-content px-3">
+                        <h5>Instant Chat</h5>
+                        <p>The most well known dummy text is the , which is said to have originated in the 16th century.
+                        </p>
+                    </div>
+                </div>
+                <div class="feature2 d-flex col-xl-4 col-lg-4 col-md-2 col-12 mt-4">
+                    <div class="feature2-icon position-relative mb-auto">
+                        <i class="fa fa-check-circle"></i>
+                    </div>
+                    <div class="feature2-content px-3">
+                        <h5>Instant Chat</h5>
+                        <p>The most well known dummy text is the , which is said to have originated in the 16th century.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Our Story Section -->
+        <div class="container ourStory-container">
+            <div class="row m-0">
+                <div class="outStory-img col-xl-5 col-lg-5 col-md-6 col-12">
+                    <img src="../../Assests/about.ee0ab080.jpg" class="img-fluid shadow rounded" alt="">
+                </div>
+                <div class="ourStory-content col-xl-7 col-lg-7 col-md-6 col-12 px-lg-4 py-3">
+                    <h2 class="ourStory-header mb-4">
+                        Our Story : <span style="color: #2f55d4 ;font-weight: bold;">Rassel Education</span>
+                    </h2>
+                    <p class="ourStory-p">
+                        Start Course with <span style="color: #2f55d4;font-weight: bold;">Rassel</span> Education that
+                        can provide everything you need to generate awareness,
+                        drive traffic, connect. Dummy text is text that is used in the publishing industry or by web
+                        designers to occupy the space which will later be filled with 'real' content. This is required
+                        when, for example, the final text is not yet available. Dummy texts have been in use by
+                        typesetters since the 16th century.
+                    </p>
+                    <ul class="ourStory-ul list-unstyled feature-list mb-0 ">
+                        <li><i class="fa-solid fa-circle-arrow-right align-middle mx-2"
+                                style="color: #2f55d4"></i>Digital Marketing Solutions for Tomorrow</li>
+                        <li><i class="fa-solid fa-circle-arrow-right align-middle mx-2"
+                                style="color: #2f55d4"></i>Digital Marketing Solutions for Tomorrow</li>
+                        <li><i class="fa-solid fa-circle-arrow-right align-middle mx-2"
+                                style="color: #2f55d4"></i>Digital Marketing Solutions for Tomorrow</li>
+                    </ul>
+                    <a class="btn btn-outline-primary mt-3" href="#">Admission Now</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Courses Section  -->
+        <div class="container courses-container">
+            <div class="section-header text-center text-wrap">
+                <h1>Explore Popular Courses</h1>
+                <p class="text-wrap mt-4">Start working with <span
+                        style="color:#2f55d4;font-weight: bold;">Rassel</span> Now!</p>
+            </div>
+            <div class="row m-0">
+                <div class="course col-xl-4 col-lg-4 col-12 my-3">
+                    <div class="card">
+                        <div class="course-img">
+                            <img src="../../Assests/2.fafe4ada.jpg" alt="">
+                            <div class="overlay-bg bg-dark">
+                            </div>
+                            <a class="text-white h6 preview" style="text-decoration: none;"
+                                href="../CoursesDetails.html">Preview
+                                Now <i class="fa fa-chevron-right"></i></a>
+                        </div>
+                        <div class="card-body">
+                            <h5>
+                                <a class="title text-dark" href="../LandingPage/CourseDetails.html">Access to Higher
+                                    Education</a>
+                            </h5>
+                            <div class="rating">
+                                <ul class="list-unstyled mb-0 p-0">
+                                    <li class="list-inline-item mx-0"><i
+                                            class="fa fa-star h5 mb-0 text-warning small"></i></li>
+                                    <li class="list-inline-item mx-0"><i
+                                            class="fa fa-star h5 mb-0 text-warning small"></i></li>
+                                    <li class="list-inline-item mx-0"><i
+                                            class="fa fa-star h5 mb-0 text-warning small"></i></li>
+                                    <li class="list-inline-item mx-0"><i
+                                            class="fa fa-star h5 mb-0 text-warning small"></i></li>
+                                    <li class="list-inline-item mx-0"><i
+                                            class="fa fa-star h5 mb-0 text-warning small"></i></li>
+                                    <li class="list-inline-item">5 Star (3 <i class="fa fa-user text-muted small"></i>)
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="fees d-flex justify-content-between">
+                                <ul class="list-unstyled mb-0 numbers p-0">
+                                    <li><i class="uil uil-graduation-cap text-muted"></i> 30 Students</li>
+                                    <li><i class="uil uil-notebooks text-muted"></i> Lession</li>
+                                </ul>
+                                <h4><span class="h6">$</span>130</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="course col-xl-4 col-lg-4 col-12 my-3">
+                    <div class="card">
+                        <div class="course-img">
+                            <img src="../../Assests/2.fafe4ada.jpg" alt="">
+                            <div class="overlay-bg bg-dark">
+                            </div>
+                            <a class="text-white h6 preview" style="text-decoration: none;"
+                                href="../LandingPage/CourseDetails.html">Preview
+                                Now <i class="fa fa-chevron-right"></i></a>
+                        </div>
+                        <div class="card-body">
+                            <h5>
+                                <a class="title text-dark" href="../LandingPage/CourseDetails.html">Access to Higher
+                                    Education</a>
+                            </h5>
+                            <div class="rating">
+                                <ul class="list-unstyled mb-0 p-0">
+                                    <li class="list-inline-item mx-0"><i
+                                            class="fa fa-star h5 mb-0 text-warning small"></i></li>
+                                    <li class="list-inline-item mx-0"><i
+                                            class="fa fa-star h5 mb-0 text-warning small"></i></li>
+                                    <li class="list-inline-item mx-0"><i
+                                            class="fa fa-star h5 mb-0 text-warning small"></i></li>
+                                    <li class="list-inline-item mx-0"><i
+                                            class="fa fa-star h5 mb-0 text-warning small"></i></li>
+                                    <li class="list-inline-item mx-0"><i
+                                            class="fa fa-star h5 mb-0 text-warning small"></i></li>
+                                    <li class="list-inline-item">5 Star (3 <i class="fa fa-user text-muted small"></i>)
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="fees d-flex justify-content-between">
+                                <ul class="list-unstyled mb-0 numbers p-0">
+                                    <li><i class="uil uil-graduation-cap text-muted"></i> 30 Students</li>
+                                    <li><i class="uil uil-notebooks text-muted"></i> Lession</li>
+                                </ul>
+                                <h4><span class="h6">$</span>130</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="course col-xl-4 col-lg-4 col-12 my-3">
+                    <div class="card">
+                        <div class="course-img">
+                            <img src="../../Assests/2.fafe4ada.jpg" alt="">
+                            <div class="overlay-bg bg-dark">
+                            </div>
+                            <a class="text-white h6 preview" style="text-decoration: none;"
+                                href="../LandingPage/CourseDetails.html">Preview
+                                Now <i class="fa fa-chevron-right"></i></a>
+                        </div>
+                        <div class="card-body">
+                            <h5>
+                                <a class="title text-dark" href="../LandingPage/CourseDetails.html">Access to Higher
+                                    Education</a>
+                            </h5>
+                            <div class="rating">
+                                <ul class="list-unstyled mb-0 p-0">
+                                    <li class="list-inline-item mx-0"><i
+                                            class="fa fa-star h5 mb-0 text-warning small"></i></li>
+                                    <li class="list-inline-item mx-0"><i
+                                            class="fa fa-star h5 mb-0 text-warning small"></i></li>
+                                    <li class="list-inline-item mx-0"><i
+                                            class="fa fa-star h5 mb-0 text-warning small"></i></li>
+                                    <li class="list-inline-item mx-0"><i
+                                            class="fa fa-star h5 mb-0 text-warning small"></i></li>
+                                    <li class="list-inline-item mx-0"><i
+                                            class="fa fa-star h5 mb-0 text-warning small"></i></li>
+                                    <li class="list-inline-item">5 Star (3 <i class="fa fa-user text-muted small"></i>)
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="fees d-flex justify-content-between">
+                                <ul class="list-unstyled mb-0 numbers p-0">
+                                    <li><i class="uil uil-graduation-cap text-muted"></i> 30 Students</li>
+                                    <li><i class="uil uil-notebooks text-muted"></i> Lession</li>
+                                </ul>
+                                <h4><span class="h6">$</span>130</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="course col-xl-4 col-lg-4 col-12 my-3">
+                    <div class="card">
+                        <div class="course-img">
+                            <img src="../../Assests/2.fafe4ada.jpg" alt="">
+                            <div class="overlay-bg bg-dark">
+                            </div>
+                            <a class="text-white h6 preview" style="text-decoration: none;"
+                                href="../LandingPage/CourseDetails.html">Preview
+                                Now <i class="fa fa-chevron-right"></i></a>
+                        </div>
+                        <div class="card-body">
+                            <h5>
+                                <a class="title text-dark" href="../LandingPage/CourseDetails.html">Access to Higher
+                                    Education</a>
+                            </h5>
+                            <div class="rating">
+                                <ul class="list-unstyled mb-0 p-0">
+                                    <li class="list-inline-item mx-0"><i
+                                            class="fa fa-star h5 mb-0 text-warning small"></i></li>
+                                    <li class="list-inline-item mx-0"><i
+                                            class="fa fa-star h5 mb-0 text-warning small"></i></li>
+                                    <li class="list-inline-item mx-0"><i
+                                            class="fa fa-star h5 mb-0 text-warning small"></i></li>
+                                    <li class="list-inline-item mx-0"><i
+                                            class="fa fa-star h5 mb-0 text-warning small"></i></li>
+                                    <li class="list-inline-item mx-0"><i
+                                            class="fa fa-star h5 mb-0 text-warning small"></i></li>
+                                    <li class="list-inline-item">5 Star (3 <i class="fa fa-user text-muted small"></i>)
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="fees d-flex justify-content-between">
+                                <ul class="list-unstyled mb-0 numbers p-0">
+                                    <li><i class="uil uil-graduation-cap text-muted"></i> 30 Students</li>
+                                    <li><i class="uil uil-notebooks text-muted"></i> Lession</li>
+                                </ul>
+                                <h4><span class="h6">$</span>130</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="course col-xl-4 col-lg-4 col-12 my-3">
+                    <div class="card">
+                        <div class="course-img">
+                            <img src="../../Assests/2.fafe4ada.jpg" alt="">
+                            <div class="overlay-bg bg-dark">
+                            </div>
+                            <a class="text-white h6 preview" style="text-decoration: none;"
+                                href="../LandingPage/CourseDetails.html">Preview
+                                Now <i class="fa fa-chevron-right"></i></a>
+                        </div>
+                        <div class="card-body">
+                            <h5>
+                                <a class="title text-dark" href="../LandingPage/CourseDetails.html">Access to Higher
+                                    Education</a>
+                            </h5>
+                            <div class="rating">
+                                <ul class="list-unstyled mb-0 p-0">
+                                    <li class="list-inline-item mx-0"><i
+                                            class="fa fa-star h5 mb-0 text-warning small"></i></li>
+                                    <li class="list-inline-item mx-0"><i
+                                            class="fa fa-star h5 mb-0 text-warning small"></i></li>
+                                    <li class="list-inline-item mx-0"><i
+                                            class="fa fa-star h5 mb-0 text-warning small"></i></li>
+                                    <li class="list-inline-item mx-0"><i
+                                            class="fa fa-star h5 mb-0 text-warning small"></i></li>
+                                    <li class="list-inline-item mx-0"><i
+                                            class="fa fa-star h5 mb-0 text-warning small"></i></li>
+                                    <li class="list-inline-item">5 Star (3 <i class="fa fa-user text-muted small"></i>)
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="fees d-flex justify-content-between">
+                                <ul class="list-unstyled mb-0 numbers p-0">
+                                    <li><i class="uil uil-graduation-cap text-muted"></i> 30 Students</li>
+                                    <li><i class="uil uil-notebooks text-muted"></i> Lession</li>
+                                </ul>
+                                <h4><span class="h6">$</span>130</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-4 pt-2 text-center col-12 explore-courses"><a class="btn btn-primary"
+                    href="../LandingPage/Courses.html">See More Courses <i class="fa fa-chevron-right"
+                        style="font-size: 12px"></i></a></div>
+        </div>
+
+        <!-- Admission Section -->
+        <div class="addmission-container" style="background-image: url(../../Assests/bg03.jpg);">
+            <div class="bg-overlay"></div>
+            <div class="container">
+                <div class="align-items-center row">
+                    <div class="col-lg-8 col-md-7 col-12">
+                        <div class="section-title">
+                            <h2 class="title title-dark text-white mb-4">Admission Now</h2>
+                            <p class="para-dark mb-0 text-light" style="font-size: 18px;">Launch your campaign and
+                                benefit from our
+                                expertise on designing and managing conversion centered bootstrap v5 html page.</p>
+                        </div>
+                        <div id="counter" class="row">
+                            <div class="mt-4 pt-2 col-6 col-md-3">
+                                <div class="counter-box"><i class="fa fa-graduation-cap title-dark text-light h1"></i>
+                                    <h2 class="mb-0 text-white title-dark mt-2"><span
+                                            class="counter-value"><span>25</span></span>K</h2>
+                                    <h6 class="counter-head title-dark text-light">Students</h6>
+                                </div>
+                            </div>
+                            <div class="mt-4 pt-2 col-6 col-md-3">
+                                <div class="counter-box"><i class="fa fa-book title-dark text-light h1"></i>
+                                    <h2 class="mb-0 text-white title-dark mt-2"><span
+                                            class="counter-value"><span>70</span></span>+</h2>
+                                    <h6 class="counter-head title-dark text-light">Courses</h6>
+                                </div>
+                            </div>
+                            <div class="mt-4 pt-2 col-6 col-md-3">
+                                <div class="counter-box"><i class="fa fa-user title-dark text-light h1"></i>
+                                    <h2 class="mb-0 text-white title-dark mt-2"><span
+                                            class="counter-value"><span>55</span></span>+</h2>
+                                    <h6 class="counter-head title-dark text-light">Instructors</h6>
+                                </div>
+                            </div>
+                            <div class="mt-4 pt-2 col-6 col-md-3">
+                                <div class="counter-box"><i class="fa fa-language title-dark text-light h1"></i>
+                                    <h2 class="mb-0 text-white title-dark mt-2"><span
+                                            class="counter-value"><span>25</span></span>+</h2>
+                                    <h6 class="counter-head title-dark text-light">Languages</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-4 mt-sm-0 pt-2 pt-sm-0 col-12 col-md-5 col-lg-4">
+                        <div class="border-0 rounded card">
+                            <div class="card-body">
+                                <form class="">
+                                    <h4>7 Days Free Trial</h4>
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="mb-3"><label class="form-label">Name : <span
+                                                        class="text-danger">*</span></label>
+                                                <div class="form-icon position-relative"><i><svg
+                                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                            viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                            stroke-width="2" stroke-linecap="round"
+                                                            stroke-linejoin="round" class="feather feather-lock fea icon-sm icons">
+                                                            <rect x="3" y="11" width="18" height="11" rx="2" ry="2" />
+                                                            <path d="M7 11V7a5 5 0 0 1 10 0v4" />
+                                                        </svg></i></div>
+                                                <input placeholder="Name" name="name" required="" type="text"
+                                                    class="form-control ps-5 form-control">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <div class="mb-3"><label class="form-label">Email : <span
+                                                        class="text-danger">*</span></label>
+                                                <div class="form-icon position-relative"><i><svg width="24" height="24"
+                                                            viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                            stroke-width="2" stroke-linecap="round"
+                                                            stroke-linejoin="round"
+                                                            class="feather feather-mail fea icon-sm icons">
+                                                            <g>
+                                                                <path
+                                                                    d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                                                </path>
+                                                                <polyline points="22,6 12,13 2,6"></polyline>
+                                                            </g>
+                                                        </svg></i></div><input placeholder="Email" name="email"
+                                                    required="" type="email" class="form-control ps-5 form-control">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <div class="mb-3"><label class="form-label">Phone : <span
+                                                        class="text-danger">*</span></label>
+                                                <div class="form-icon position-relative"><i><svg width="24" height="24"
+                                                            viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                            stroke-width="2" stroke-linecap="round"
+                                                            stroke-linejoin="round"
+                                                            class="feather feather-phone fea icon-sm icons">
+                                                            <g>
+                                                                <path
+                                                                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                                                                </path>
+                                                            </g>
+                                                        </svg></i></div><input id="number" placeholder="phone"
+                                                    required="" type="number" class="form-control ps-5 form-control">
+                                            </div>
+                                        </div>
+                                        <div class="mt-2 mb-0 col-lg-12">
+                                            <div class="d-grid"><button type="submit" class="btn btn-primary">Register
+                                                    Now</button></div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- What Students say section  -->
+        <div class="container studentSay-container">
+            <div class="section-header text-center text-wrap">
+                <h1>What Students Say ?</h1>
+                <p class="text-wrap mt-4">Start working with <span
+                        style="color:#2f55d4;font-weight: bold;">Rassel</span> that can provide everything you need to
+                    generate awareness, drive traffic, connect.</p>
+            </div>
+            <div class="owl-carousel">
+                <div class="py-5 px-2">
+                    <div class="d-flex client-testi" name="clientsreview"><img src="../../Assests/bg02.jpg"
+                            class="avatar avatar-small client-image rounded shadow" alt=""
+                            style="height: 65px; width: 65px;">
+                        <div class="flex-1 content p-3 shadow rounded bg-white position-relative"
+                            style="box-shadow: 0 0rem 1rem rgba(0,0,0,.15)!important;">
+                            <div class="star-ratings" title="4 Stars"
+                                style="position: relative; box-sizing: border-box; display: inline-block;"><svg
+                                    class="star-grad"
+                                    style="position: absolute; z-index: 0; width: 0px; height: 0px; visibility: hidden;">
+                                    <defs>
+                                        <linearGradient id="starGrad201426773409057" x1="0%" y1="0%" x2="100%" y2="0%">
+                                            <stop offset="0%" class="stop-color-first"
+                                                style="stop-color: rgb(241, 116, 37); stop-opacity: 1;"></stop>
+                                            <stop offset="0%" class="stop-color-first"
+                                                style="stop-color: rgb(241, 116, 37); stop-opacity: 1;"></stop>
+                                            <stop offset="0%" class="stop-color-final"
+                                                style="stop-color: rgb(203, 211, 227); stop-opacity: 1;"></stop>
+                                            <stop offset="100%" class="stop-color-final"
+                                                style="stop-color: rgb(203, 211, 227); stop-opacity: 1;"></stop>
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                                <div class="star-container"
+                                    style="position: relative; display: inline-block; vertical-align: middle; padding-right: 3px;">
+                                    <svg viewBox="0 0 51 48" class="widget-svg"
+                                        style="width: 15px; height: 15px; transition: transform 0.2s ease-in-out 0s;">
+                                        <path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z"
+                                            style="fill: rgb(241, 116, 37); transition: fill 0.2s ease-in-out 0s;">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <div class="star-container"
+                                    style="position: relative; display: inline-block; vertical-align: middle; padding-left: 3px; padding-right: 3px;">
+                                    <svg viewBox="0 0 51 48" class="widget-svg"
+                                        style="width: 15px; height: 15px; transition: transform 0.2s ease-in-out 0s;">
+                                        <path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z"
+                                            style="fill: rgb(241, 116, 37); transition: fill 0.2s ease-in-out 0s;">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <div class="star-container"
+                                    style="position: relative; display: inline-block; vertical-align: middle; padding-left: 3px; padding-right: 3px;">
+                                    <svg viewBox="0 0 51 48" class="widget-svg"
+                                        style="width: 15px; height: 15px; transition: transform 0.2s ease-in-out 0s;">
+                                        <path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z"
+                                            style="fill: rgb(241, 116, 37); transition: fill 0.2s ease-in-out 0s;">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <div class="star-container"
+                                    style="position: relative; display: inline-block; vertical-align: middle; padding-left: 3px; padding-right: 3px;">
+                                    <svg viewBox="0 0 51 48" class="widget-svg"
+                                        style="width: 15px; height: 15px; transition: transform 0.2s ease-in-out 0s;">
+                                        <path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z"
+                                            style="fill: rgb(241, 116, 37); transition: fill 0.2s ease-in-out 0s;">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <div class="star-container"
+                                    style="position: relative; display: inline-block; vertical-align: middle; padding-left: 3px;">
+                                    <svg viewBox="0 0 51 48" class="widget-svg"
+                                        style="width: 15px; height: 15px; transition: transform 0.2s ease-in-out 0s;">
+                                        <path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z"
+                                            style="fill: rgb(203, 211, 227); transition: fill 0.2s ease-in-out 0s;">
+                                        </path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <p class="text-muted mt-2">" Thus, Lorem Ipsum has only limited suitability as a visual
+                                filler for German texts. "</p>
+                            <h6 class="text-primary">- ill Webb <small class="text-muted">Designer</small></h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="py-5 px-2">
+                    <div class="d-flex client-testi" name="clientsreview"><img src="../../Assests/bg02.jpg"
+                            class="avatar avatar-small client-image rounded shadow" alt=""
+                            style="height: 65px; width: 65px;">
+                        <div class="flex-1 content p-3 shadow rounded bg-white position-relative"
+                            style="box-shadow: 0 0rem 1rem rgba(0,0,0,.15)!important;">
+                            <div class="star-ratings" title="4 Stars"
+                                style="position: relative; box-sizing: border-box; display: inline-block;"><svg
+                                    class="star-grad"
+                                    style="position: absolute; z-index: 0; width: 0px; height: 0px; visibility: hidden;">
+                                    <defs>
+                                        <linearGradient id="starGrad201426773409057" x1="0%" y1="0%" x2="100%" y2="0%">
+                                            <stop offset="0%" class="stop-color-first"
+                                                style="stop-color: rgb(241, 116, 37); stop-opacity: 1;"></stop>
+                                            <stop offset="0%" class="stop-color-first"
+                                                style="stop-color: rgb(241, 116, 37); stop-opacity: 1;"></stop>
+                                            <stop offset="0%" class="stop-color-final"
+                                                style="stop-color: rgb(203, 211, 227); stop-opacity: 1;"></stop>
+                                            <stop offset="100%" class="stop-color-final"
+                                                style="stop-color: rgb(203, 211, 227); stop-opacity: 1;"></stop>
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                                <div class="star-container"
+                                    style="position: relative; display: inline-block; vertical-align: middle; padding-right: 3px;">
+                                    <svg viewBox="0 0 51 48" class="widget-svg"
+                                        style="width: 15px; height: 15px; transition: transform 0.2s ease-in-out 0s;">
+                                        <path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z"
+                                            style="fill: rgb(241, 116, 37); transition: fill 0.2s ease-in-out 0s;">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <div class="star-container"
+                                    style="position: relative; display: inline-block; vertical-align: middle; padding-left: 3px; padding-right: 3px;">
+                                    <svg viewBox="0 0 51 48" class="widget-svg"
+                                        style="width: 15px; height: 15px; transition: transform 0.2s ease-in-out 0s;">
+                                        <path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z"
+                                            style="fill: rgb(241, 116, 37); transition: fill 0.2s ease-in-out 0s;">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <div class="star-container"
+                                    style="position: relative; display: inline-block; vertical-align: middle; padding-left: 3px; padding-right: 3px;">
+                                    <svg viewBox="0 0 51 48" class="widget-svg"
+                                        style="width: 15px; height: 15px; transition: transform 0.2s ease-in-out 0s;">
+                                        <path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z"
+                                            style="fill: rgb(241, 116, 37); transition: fill 0.2s ease-in-out 0s;">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <div class="star-container"
+                                    style="position: relative; display: inline-block; vertical-align: middle; padding-left: 3px; padding-right: 3px;">
+                                    <svg viewBox="0 0 51 48" class="widget-svg"
+                                        style="width: 15px; height: 15px; transition: transform 0.2s ease-in-out 0s;">
+                                        <path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z"
+                                            style="fill: rgb(241, 116, 37); transition: fill 0.2s ease-in-out 0s;">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <div class="star-container"
+                                    style="position: relative; display: inline-block; vertical-align: middle; padding-left: 3px;">
+                                    <svg viewBox="0 0 51 48" class="widget-svg"
+                                        style="width: 15px; height: 15px; transition: transform 0.2s ease-in-out 0s;">
+                                        <path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z"
+                                            style="fill: rgb(203, 211, 227); transition: fill 0.2s ease-in-out 0s;">
+                                        </path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <p class="text-muted mt-2">" Thus, Lorem Ipsum has only limited suitability as a visual
+                                filler for German texts. "</p>
+                            <h6 class="text-primary">- ill Webb <small class="text-muted">Designer</small></h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="py-5 px-2">
+                    <div class="d-flex client-testi" name="clientsreview"><img src="../../Assests/bg02.jpg"
+                            class="avatar avatar-small client-image rounded shadow" alt=""
+                            style="height: 65px; width: 65px;">
+                        <div class="flex-1 content p-3 shadow rounded bg-white position-relative"
+                            style="box-shadow: 0 0rem 1rem rgba(0,0,0,.15)!important;">
+                            <div class="star-ratings" title="4 Stars"
+                                style="position: relative; box-sizing: border-box; display: inline-block;"><svg
+                                    class="star-grad"
+                                    style="position: absolute; z-index: 0; width: 0px; height: 0px; visibility: hidden;">
+                                    <defs>
+                                        <linearGradient id="starGrad201426773409057" x1="0%" y1="0%" x2="100%" y2="0%">
+                                            <stop offset="0%" class="stop-color-first"
+                                                style="stop-color: rgb(241, 116, 37); stop-opacity: 1;"></stop>
+                                            <stop offset="0%" class="stop-color-first"
+                                                style="stop-color: rgb(241, 116, 37); stop-opacity: 1;"></stop>
+                                            <stop offset="0%" class="stop-color-final"
+                                                style="stop-color: rgb(203, 211, 227); stop-opacity: 1;"></stop>
+                                            <stop offset="100%" class="stop-color-final"
+                                                style="stop-color: rgb(203, 211, 227); stop-opacity: 1;"></stop>
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                                <div class="star-container"
+                                    style="position: relative; display: inline-block; vertical-align: middle; padding-right: 3px;">
+                                    <svg viewBox="0 0 51 48" class="widget-svg"
+                                        style="width: 15px; height: 15px; transition: transform 0.2s ease-in-out 0s;">
+                                        <path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z"
+                                            style="fill: rgb(241, 116, 37); transition: fill 0.2s ease-in-out 0s;">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <div class="star-container"
+                                    style="position: relative; display: inline-block; vertical-align: middle; padding-left: 3px; padding-right: 3px;">
+                                    <svg viewBox="0 0 51 48" class="widget-svg"
+                                        style="width: 15px; height: 15px; transition: transform 0.2s ease-in-out 0s;">
+                                        <path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z"
+                                            style="fill: rgb(241, 116, 37); transition: fill 0.2s ease-in-out 0s;">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <div class="star-container"
+                                    style="position: relative; display: inline-block; vertical-align: middle; padding-left: 3px; padding-right: 3px;">
+                                    <svg viewBox="0 0 51 48" class="widget-svg"
+                                        style="width: 15px; height: 15px; transition: transform 0.2s ease-in-out 0s;">
+                                        <path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z"
+                                            style="fill: rgb(241, 116, 37); transition: fill 0.2s ease-in-out 0s;">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <div class="star-container"
+                                    style="position: relative; display: inline-block; vertical-align: middle; padding-left: 3px; padding-right: 3px;">
+                                    <svg viewBox="0 0 51 48" class="widget-svg"
+                                        style="width: 15px; height: 15px; transition: transform 0.2s ease-in-out 0s;">
+                                        <path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z"
+                                            style="fill: rgb(241, 116, 37); transition: fill 0.2s ease-in-out 0s;">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <div class="star-container"
+                                    style="position: relative; display: inline-block; vertical-align: middle; padding-left: 3px;">
+                                    <svg viewBox="0 0 51 48" class="widget-svg"
+                                        style="width: 15px; height: 15px; transition: transform 0.2s ease-in-out 0s;">
+                                        <path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z"
+                                            style="fill: rgb(203, 211, 227); transition: fill 0.2s ease-in-out 0s;">
+                                        </path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <p class="text-muted mt-2">" Thus, Lorem Ipsum has only limited suitability as a visual
+                                filler for German texts. "</p>
+                            <h6 class="text-primary">- ill Webb <small class="text-muted">Designer</small></h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="py-5 px-2">
+                    <div class="d-flex client-testi" name="clientsreview"><img src="../../Assests/bg02.jpg"
+                            class="avatar avatar-small client-image rounded shadow" alt=""
+                            style="height: 65px; width: 65px;">
+                        <div class="flex-1 content p-3 shadow rounded bg-white position-relative"
+                            style="box-shadow: 0 0rem 1rem rgba(0,0,0,.15)!important;">
+                            <div class="star-ratings" title="4 Stars"
+                                style="position: relative; box-sizing: border-box; display: inline-block;"><svg
+                                    class="star-grad"
+                                    style="position: absolute; z-index: 0; width: 0px; height: 0px; visibility: hidden;">
+                                    <defs>
+                                        <linearGradient id="starGrad201426773409057" x1="0%" y1="0%" x2="100%" y2="0%">
+                                            <stop offset="0%" class="stop-color-first"
+                                                style="stop-color: rgb(241, 116, 37); stop-opacity: 1;"></stop>
+                                            <stop offset="0%" class="stop-color-first"
+                                                style="stop-color: rgb(241, 116, 37); stop-opacity: 1;"></stop>
+                                            <stop offset="0%" class="stop-color-final"
+                                                style="stop-color: rgb(203, 211, 227); stop-opacity: 1;"></stop>
+                                            <stop offset="100%" class="stop-color-final"
+                                                style="stop-color: rgb(203, 211, 227); stop-opacity: 1;"></stop>
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                                <div class="star-container"
+                                    style="position: relative; display: inline-block; vertical-align: middle; padding-right: 3px;">
+                                    <svg viewBox="0 0 51 48" class="widget-svg"
+                                        style="width: 15px; height: 15px; transition: transform 0.2s ease-in-out 0s;">
+                                        <path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z"
+                                            style="fill: rgb(241, 116, 37); transition: fill 0.2s ease-in-out 0s;">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <div class="star-container"
+                                    style="position: relative; display: inline-block; vertical-align: middle; padding-left: 3px; padding-right: 3px;">
+                                    <svg viewBox="0 0 51 48" class="widget-svg"
+                                        style="width: 15px; height: 15px; transition: transform 0.2s ease-in-out 0s;">
+                                        <path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z"
+                                            style="fill: rgb(241, 116, 37); transition: fill 0.2s ease-in-out 0s;">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <div class="star-container"
+                                    style="position: relative; display: inline-block; vertical-align: middle; padding-left: 3px; padding-right: 3px;">
+                                    <svg viewBox="0 0 51 48" class="widget-svg"
+                                        style="width: 15px; height: 15px; transition: transform 0.2s ease-in-out 0s;">
+                                        <path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z"
+                                            style="fill: rgb(241, 116, 37); transition: fill 0.2s ease-in-out 0s;">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <div class="star-container"
+                                    style="position: relative; display: inline-block; vertical-align: middle; padding-left: 3px; padding-right: 3px;">
+                                    <svg viewBox="0 0 51 48" class="widget-svg"
+                                        style="width: 15px; height: 15px; transition: transform 0.2s ease-in-out 0s;">
+                                        <path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z"
+                                            style="fill: rgb(241, 116, 37); transition: fill 0.2s ease-in-out 0s;">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <div class="star-container"
+                                    style="position: relative; display: inline-block; vertical-align: middle; padding-left: 3px;">
+                                    <svg viewBox="0 0 51 48" class="widget-svg"
+                                        style="width: 15px; height: 15px; transition: transform 0.2s ease-in-out 0s;">
+                                        <path class="star" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z"
+                                            style="fill: rgb(203, 211, 227); transition: fill 0.2s ease-in-out 0s;">
+                                        </path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <p class="text-muted mt-2">" Thus, Lorem Ipsum has only limited suitability as a visual
+                                filler for German texts. "</p>
+                            <h6 class="text-primary">- ill Webb <small class="text-muted">Designer</small></h6>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+
+    </footer>
+
+    <!-- aside button -->
+
+    <aside role="button" aria-label="Scroll to top of page" tabindex="0" data-testid="react-scroll-up-button"
+        class="classForContainer " style="height: 36px; width: 36px;"><svg width="24" height="24" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="feather feather-arrow-up icons">
+            <g>
+                <line x1="12" y1="19" x2="12" y2="5"></line>
+                <polyline points="5 12 12 5 19 12"></polyline>
+            </g>
+        </svg></aside>
+
+
+
+    <!-- Script Files -->
+    <script src="../../Js/Shared/jquery-3.6.0.min.js"></script>
+    <script src="../../Js/Shared/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../../Js/LandingPage/Shared.js"></script>
+    <script src="../../Js/LandingPage/Home.js"></script>
+</body>
+
+</html>

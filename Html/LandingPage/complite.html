@@ -1,0 +1,504 @@
+<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+    integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+    integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+    crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/css/iziToast.css"
+    integrity="sha512-DIW4FkYTOxjCqRt7oS9BFO+nVOwDL4bzukDyDtMO7crjUZhwpyrWBFroq+IqRe6VnJkTpRAS6nhDvf0w+wHmxg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+    * {
+        margin: 0;
+        padding: 0
+    }
+
+    html {
+        height: 100%
+    }
+
+    p {
+        color: grey
+    }
+
+    #heading {
+        text-transform: uppercase;
+        color: #2f55d4;
+        font-weight: normal
+    }
+
+    #msform {
+        text-align: center;
+        position: relative;
+        margin-top: 20px
+    }
+
+    #msform fieldset {
+        background: white;
+        border: 0 none;
+        border-radius: 0.5rem;
+        box-sizing: border-box;
+        width: 100%;
+        margin: 0;
+        padding-bottom: 20px;
+        position: relative
+    }
+
+    .form-card {
+        text-align: left
+    }
+
+    #msform fieldset:not(:first-of-type) {
+        display: none
+    }
+
+
+    #msform input:focus,
+
+
+
+
+
+    .card {
+        z-index: 0;
+        border: none;
+        position: relative
+    }
+
+    .fs-title {
+        font-size: 25px;
+        color: #2f55d4;
+        margin-bottom: 15px;
+        font-weight: normal;
+        text-align: left
+    }
+
+    .purple-text {
+        color: #673AB7;
+        font-weight: normal
+    }
+
+    .steps {
+        font-size: 25px;
+        color: gray;
+        margin-bottom: 10px;
+        font-weight: normal;
+        text-align: right
+    }
+
+    .fieldlabels {
+        color: gray;
+        text-align: left
+    }
+
+    #progressbar {
+        margin-bottom: 30px;
+        overflow: hidden;
+        padding-left: 25px;
+        padding-right: 25px;
+        color: lightgrey
+    }
+
+    #progressbar .active {
+        color: #2f55d4
+    }
+
+    #progressbar li {
+        list-style-type: none;
+        font-size: 15px;
+        width: 33%;
+        float: left;
+        position: relative;
+        font-weight: 400
+    }
+
+    #progressbar #account:before {
+        font-family: FontAwesome;
+        content: "\f13e"
+    }
+
+    #progressbar #personal:before {
+        font-family: FontAwesome;
+        content: "\f007"
+    }
+
+    #progressbar #payment:before {
+        font-family: FontAwesome;
+        content: "\f030"
+    }
+
+    #progressbar #confirm:before {
+        font-family: FontAwesome;
+        content: "\f00c"
+    }
+
+    #progressbar li:before {
+        width: 50px;
+        height: 50px;
+        line-height: 45px;
+        display: block;
+        font-size: 20px;
+        color: #ffffff;
+        background: lightgray;
+        border-radius: 50%;
+        margin: 0 auto 10px auto;
+        padding: 2px
+    }
+
+    #progressbar li:after {
+        content: '';
+        width: 100%;
+        height: 2px;
+        background: lightgray;
+        position: absolute;
+        left: 0;
+        top: 25px;
+        z-index: -1
+    }
+
+    #progressbar li.active:before,
+    #progressbar li.active:after {
+        background: #2f55d4
+    }
+
+    .progress {
+        height: 20px
+    }
+
+    .progress-bar {
+        background-color: #2f55d4
+    }
+
+    .fit-image {
+        width: 100%;
+        object-fit: cover
+    }
+
+    @media all and (max-width :400px) {
+        #progressbar li:before {
+            width: 30px;
+            height: 30px;
+            font-size: 15px;
+            line-height: 26px;
+        }
+
+        #progressbar li:after {
+            top: 15;
+        }
+    }
+</style>
+<div class="container-fluid">
+    <div class="row justify-content-center">
+        <div class="col-11 col-sm-10 col-md-10 col-lg-6 col-xl-5 text-center p-0 mt-3 mb-2">
+            <div class="card px-0 pt-4 pb-0 mt-3 mb-3">
+                <h2 id="heading">Sign Up Your User Account</h2>
+                <p>Fill all form field to go to next step</p>
+                <form id="msform">
+                    <!-- progressbar -->
+                    <ul id="progressbar">
+                        <li id="personal" class="active"><strong>Personal</strong></li>
+                        <li id="payment"><strong>Image</strong></li>
+                        <li id="confirm"><strong>Finish</strong></li>
+                    </ul>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div> <br> <!-- fieldsets -->
+
+                    <fieldset>
+
+                        <div class="form-card">
+                            <div class="row">
+                                <div class="col-7">
+                                    <h2 class="fs-title">Personal Information:</h2>
+                                </div>
+                                <div class="col-5">
+                                    <h2 class="steps">Step 1 - 3</h2>
+                                </div>
+                            </div>
+
+
+                            <label class="form-label fw-bold">
+                                Gender:
+                            </label>
+                            <div class="input-group mb-3">
+                                <div class="input-group-text">
+                                    <input class="form-check-input ml-0 position-relative mt-0" name="Gender"
+                                        type="radio" value="0" aria-label="Radio button for following text input">
+                                </div>
+                                <input type="text" class="form-control bg-white fw-bold" placeholder="Male" value="Male"
+                                    disabled>
+                                <div class="input-group-text">
+                                    <input class="form-check-input ml-0 position-relative mt-0" name="Gender"
+                                        type="radio" value="1" aria-label="Radio button for following text input">
+                                </div>
+                                <input type="text" class="form-control bg-white fw-bold" placeholder="Female"
+                                    value="Female" disabled>
+                            </div>
+
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="basic-addon3">Address</span>
+                                <input type="text" class="form-control" name="address"
+                                    placeholder="10-of Ramadan , Cairo" id="basic-url" required
+                                    aria-describedby="basic-addon3">
+                            </div>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="basic-addon3">Region</span>
+                                <input type="text" class="form-control" placeholder="Cairo" name="region" id="region"
+                                    required aria-describedby="basic-addon3">
+                                <span class="input-group-text" id="basic-addon3">Country</span>
+                                <input type="text" class="form-control" placeholder="Egypt" name="country" id="country"
+                                    required aria-describedby="basic-addon3">
+                            </div>
+                        </div>
+
+
+                        <input type="button" name="next" class="next action-button btn btn-primary" value="Next" />
+                    </fieldset>
+                    <fieldset>
+                        <div class="form-card">
+                            <div class="row">
+                                <div class="col-7">
+                                    <h2 class="fs-title">Additional Information:</h2>
+                                </div>
+                                <div class="col-5">
+                                    <h2 class="steps">Step 2 - 3</h2>
+                                </div>
+                            </div>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="basic-addon3">Date Of Birth </span>
+                                <input type="date" class="form-control" name="birthDate"
+                                    placeholder="10-of Ramadan , Cairo" id="basic-url" aria-describedby="basic-addon3">
+                            </div>
+                            <label class="form-label fw-bold">
+                                WhatsApp Number :
+                            </label>
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="basic-addon1">+20</span>
+                                </div>
+                                <input type="tel" class="form-control" name="whatsNumber"
+                                    aria-describedby="basic-addon1">
+                                <button type="button" class="btn btn-primary px-2 getCode">Get Code</button>
+                            </div>
+
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="basic-addon3">Code </span>
+                                <input type="text" class="form-control" disabled maxlength="6" name="Code"
+                                    id="basic-url" aria-describedby="basic-addon3">
+                            </div>
+                        </div><input type="button" name="previous" class="previous action-button btn btn-primary"
+                            value="Previous" /> <input type="button" name="next"
+                            class="next action-button btn btn-primary" value="Submit" />
+                    </fieldset>
+                    <fieldset>
+                        <div class="form-card">
+                            <div class="row">
+                                <div class="col-7">
+                                    <h2 class="fs-title">Finish:</h2>
+                                </div>
+                                <div class="col-5">
+                                    <h2 class="steps">Step 3 - 3</h2>
+                                </div>
+                            </div> <br><br>
+                            <h2 class="text-primary text-center"><strong>SUCCESS !</strong></h2> <br>
+                            <div class="row justify-content-center">
+                                <div class="col-5"> <img src="../../Assests/Facebook-Verified-Badge-Transparent-PNG.png"
+                                        class="fit-image"> </div>
+                            </div> <br><br>
+                            <div class="row justify-content-center">
+                                <div class="col-7 text-center">
+                                    <h5 class="text-primary text-center">You Have Successfully Signed Up</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+
+    $(document).ready(async function () {
+        let geo = await $.get('https://api.ipgeolocation.io/ipgeo?apiKey=05a449f14cd74a9b9143f5eee8d60d4b')
+        console.log(geo)
+
+        if (geo.state_prov.length == 0) {
+
+            document.getElementById('region').value = geo.city
+
+        } else {
+            document.getElementById('region').value = geo.state_prov
+
+        }
+        document.getElementById('country').value = geo.country_name
+
+        var current_fs, next_fs, previous_fs; //fieldsets
+        var opacity;
+        var current = 1;
+        var steps = $("fieldset").length;
+
+        setProgressBar(current);
+
+        $(".next").click(function () {
+
+
+            current_fs = $(this).parent();
+            next_fs = $(this).parent().next();
+
+            if (current == 1 && $('input[name="address"]').val() != 0 && $('input[name="country"]').val() != 0 && $('input[name="region"]').val() != 0 && ($('input[value="0"]').prop('checked') || $('input[value="1"]').prop('checked'))) {
+                $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
+
+                //show the next fieldset
+                next_fs.show();
+                //hide the current fieldset with style
+                current_fs.animate({ opacity: 0 }, {
+                    step: function (now) {
+                        // for making fielset appear animation
+                        opacity = 1 - now;
+
+                        current_fs.css({
+                            'display': 'none',
+                            'position': 'relative'
+                        });
+                        next_fs.css({ 'opacity': opacity });
+                    },
+                    duration: 500
+                });
+                setProgressBar(++current);
+            }
+            else if (current == 2 && $('input[name="birthDate"]').val() != 0 && $('input[name="whatsNumber"]').val() != 0 && $('input[name="Code"]').val() != 0 && Number($('input[name="whatsNumber"]').val()) && Number($('input[name="Code"]').val())) {
+
+                
+                var data ={
+                    address : $('input[name="address"]').val() , 
+                    country : $('input[name="country"]').val() ,
+                    region : $('input[name="region"]').val() , 
+                    gender : $("input[type='radio']:checked").val(),
+                    date : $('input[name="birthDate"]').val() ,
+                    number : $('input[name="whatsNumber"]').val() ,
+                    code : $('input[name="Code"]').val() ,
+
+                } ;
+                console.log(data);
+                // true / false 
+                var response = false 
+                if(response === true ){
+                    $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
+
+                //show the next fieldset
+                next_fs.show();
+                //hide the current fieldset with style
+                current_fs.animate({ opacity: 0 }, {
+                    step: function (now) {
+                        // for making fielset appear animation
+                        opacity = 1 - now;
+
+                        current_fs.css({
+                            'display': 'none',
+                            'position': 'relative'
+                        });
+                        next_fs.css({ 'opacity': opacity });
+                    },
+                    duration: 500
+                });
+                setProgressBar(++current);
+                }
+                else{
+                    iziToast.warning({
+                        icon: 'fas fa-exclamation-triangle',
+                        title: 'Warning',
+                        message: 'Invalid Data',
+                    });
+                }
+            }
+            //Add Class Active
+
+        });
+
+        $(".previous").click(function () {
+
+            current_fs = $(this).parent();
+            previous_fs = $(this).parent().prev();
+
+            //Remove class active
+            $("#progressbar li").eq($("fieldset").index(current_fs)).removeClass("active");
+
+            //show the previous fieldset
+            previous_fs.show();
+
+            //hide the current fieldset with style
+            current_fs.animate({ opacity: 0 }, {
+                step: function (now) {
+                    // for making fielset appear animation
+                    opacity = 1 - now;
+
+                    current_fs.css({
+                        'display': 'none',
+                        'position': 'relative'
+                    });
+                    previous_fs.css({ 'opacity': opacity });
+                },
+                duration: 500
+            });
+            setProgressBar(--current);
+        });
+
+        function setProgressBar(curStep) {
+            var percent = parseFloat(100 / steps) * curStep;
+            percent = percent.toFixed();
+            $(".progress-bar")
+                .css("width", percent + "%")
+        }
+
+        $(".submit").click(function () {
+
+            // send data
+            // res 
+            
+            // true == all fine 
+            
+            // false == msg == inviled code 
+
+            return false;
+        })
+        $('.getCode').click(function () {
+
+            let verfiy = true
+            if (Number($('input[name="whatsNumber"]').val())) {
+                // get phone 
+                // send phone number
+                phoneNumber = Number($('input[name="whatsNumber"]').val())
+                // send phone number
+
+                if (verfiy === false) {
+
+                    iziToast.warning({
+                        icon: 'fas fa-exclamation-triangle',
+                        title: 'Warning',
+                        message: 'Invalid WhatsApp Number !',
+                    });
+
+                }
+                else{
+                    $('input[name="Code"]').prop('disabled',false)
+                }
+            }
+        })
+    });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/js/iziToast.min.js"
+    integrity="sha512-Zq9o+E00xhhR/7vJ49mxFNJ0KQw1E1TMWkPTxrWcnpfEFDEXgUiwJHIKit93EW/XxE31HSI5GEOW06G6BF1AtA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>

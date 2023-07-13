@@ -1,0 +1,81 @@
+.courses-container{
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
+.search-container{
+    width: 100%;
+    max-width: 500px;
+    position: relative;
+}
+.search-container i{
+    width: 38px;
+    font-size: 20px;
+    top: 0;
+    transition: all .3s ease-in-out;
+}
+.search-container input{
+    transition: all .3s ease-in-out;
+    padding:.375rem 40px;
+}
+.search-container input:focus{
+    box-shadow: none;
+    border:1px solid #2f55d4 ;
+}
+.search-container input:focus + i{
+    color: #2f55d4;
+}
+.course-img{
+    overflow: hidden;
+    position: relative;
+}
+.course{
+    transition: all .5s ;
+
+}
+.course:hover{
+    transform: translateY(-20px);
+}
+.course .course-img img{
+    width: 100%;
+    transition: all 1s;
+}
+.course .overlay-bg{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    transition: all .5s ease;
+}
+.course:hover .overlay-bg {
+    opacity: .5;
+}
+.course:hover .course-img a{
+    opacity: 1;
+
+}
+
+.course:hover .course-img img{
+    transform: rotate(10deg) scale(1.2);
+}
+.course .course-img a{
+    position: absolute;
+    bottom: 15px;
+    transition: all .5s ease;
+    right: 15px;
+    opacity: 0;
+}
+.course .course-img i{
+    font-size: 12px;
+}
+.course .card{
+    border:0px ;
+    overflow: hidden;
+}
+.course:hover .card{
+    box-shadow: 0 0 3px rgb(60 72 88 / 15%);
+}
+.course .card-body a{
+    text-decoration: none;
+}

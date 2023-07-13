@@ -1,0 +1,156 @@
+.startStat{
+    border-right: 1px solid #e9ebec;
+}
+.startStat .card-title span{
+    font-size: 13px;
+    font-weight: bold  ;
+}
+.text-muted-custom{
+    color: #495057  ;
+}
+main h1,main h2,main h3,main h4,main h5,main h6{
+    color: #495057;
+}
+main h5 ,main .h5{
+    font-size: 1.015625rem;
+}
+main .text-muted{
+    color: #878a99!important;
+}
+.btn-sm {
+
+    font-size: 0.7109375rem;
+    
+}
+.btn-soft-secondary {
+    color: #3577f1;
+    background-color: rgba(53, 119, 241, 0.1);
+    border-color: transparent;
+    
+    
+}
+.btn-soft-secondary:hover{
+    color: #fff;
+    background-color: #306bd9;
+    border-color: transparent;
+}
+.btn-soft-secondary:focus{
+    box-shadow:0 0 0 0 rgb( 53,119,241);
+}
+.btn-soft-secondary.active{
+    color: #fff;;
+    background-color: #2a5fc1;
+    border-color: transparent;
+}
+.border-dashed {
+    border-style: dashed!important;
+}
+.text-success{
+    color: rgb(10,179,156) !important;
+}
+.main-font{
+    font-size: 0.8125rem !important;
+}
+.apexcharts-xaxis text, .apexcharts-yaxis text {
+    fill: #adb5bd;
+}
+.progress-bar{
+    background-color: #405189 !important;
+}
+
+@media (min-width: 768px) {
+    .animate {
+      animation-duration: 0.3s;
+      top: auto !important;
+      bottom: auto  !important;
+      -webkit-animation-duration: 0.3s;
+      animation-fill-mode: both;
+      -webkit-animation-fill-mode: both;
+    }
+  }
+  
+  @keyframes slideIn {
+    0% {
+      transform: translateY(1rem);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: translateY(0rem);
+      opacity: 1;
+    }
+  
+    0% {
+      transform: translateY(1rem);
+      opacity: 0;
+    }
+  }
+  
+  @-webkit-keyframes slideIn {
+    0% {
+      -webkit-transform: transform;
+      -webkit-opacity: 0;
+    }
+  
+    100% {
+      -webkit-transform: translateY(0);
+      -webkit-opacity: 1;
+    }
+  
+    0% {
+      -webkit-transform: translateY(1rem);
+      -webkit-opacity: 0;
+    }
+  }
+  
+  .slideIn {
+    -webkit-animation-name: slideIn;
+    animation-name: slideIn;
+  }
+  
+  /* Other styles for the page not related to the animated dropdown */
+  
+  .avatar-sm {
+    height: 3rem;
+    width: 3rem;
+}
+.fs-14{
+    font-size: 14px !important;
+}
+.badge-soft-danger {
+    color: #f06548;
+    background-color: rgba(240,101,72,.1);
+}
+.page-item.active .page-link {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.pagination-separated .page-item .page-link {
+    margin-left: 0.35rem;
+    border-radius: 0.25rem;
+}
+.pagination-separated .page-item .page-link {
+    margin-left: 0.35rem;
+    border-radius: 0.25rem;
+}
+.fs-16{
+    font-size: 16px !important;
+}
+.badge-soft-success {
+    color: #0ab39c;
+    background-color: rgba(10,179,156,.1);
+}
+.badge-soft-warning {
+    color: #f7b84b;
+    background-color: rgba(247,184,75,.1);
+}
+.badge-soft-danger {
+    color: #f06548;
+    background-color: rgba(240,101,72,.1);
+}
+.link-primary {
+    color: #405189!important;
+}
+.fw-medium {
+    font-weight: 500;
+}

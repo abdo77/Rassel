@@ -1,0 +1,584 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar</title>
+    <link rel="stylesheet" href="../../Css/Shared/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/6.6.4/css/flag-icons.min.css"
+        integrity="sha512-uvXdJud8WaOlQFjlz9B15Yy2Au/bMAvz79F7Xa6OakCl2jvQPdHD0hb3dEqZRdSwG4/sknePXlE7GiarwA/9Wg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/jquery.mcustomscrollbar/3.0.6/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/7.1.96/css/materialdesignicons.min.css" integrity="sha512-NaaXI5f4rdmlThv3ZAVS44U9yNWJaUYWzPhvlg5SC7nMRvQYV9suauRK3gVbxh7qjE33ApTPD+hkOW78VSHyeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../../Css/sharedDash/shared.css">
+    <link rel="stylesheet" href="../../Css/student/studentCalendar.css">
+</head>
+
+<body>
+    <div class="bg-overlay show"></div>
+    <!-- 
+        side bar 
+    -->
+    <aside class="">
+        <div class="logo-container">
+            <img src="../../Assests/Rassel-2.png" alt="" srcset="">
+            <img src="../../Assests/image.png" alt="">
+        </div>
+        <div class="mCustomScrollbar1" data-mcs-theme="light">
+            <ul class="list-unstyled nav flex-column position-relative">
+                <li class="menu-title px-3 fw-bold text-white">
+                    <span>Title</span>
+                </li>
+                <li class="nav-item fw-bold text-white">
+                    <a class="menu-link main-link d-block active" data-bs-toggle="collapse" href="#homeMenu"
+                        role="button" aria-expanded="false" aria-controls="homeMenu">
+                        <i class="fa fa-home "></i>
+
+                        <span>Home</span>
+                    </a>
+                    <ul class="dropdown-menu pt-0  collapse" id="homeMenu">
+                        <li class="nav-item fw-bold text-white">
+                            <a class="" href="">Home</a>
+                        </li>
+                        <li class="nav-item fw-bold text-white">
+                            <a class="menu-link" data-bs-toggle="collapse" href="#homeMenu1" role="button"
+                                aria-expanded="false" aria-controls="homeMenu1">Home</a>
+                            <ul class="dropdown-menu pt-0  collapse" id="homeMenu1">
+                                <li class="nav-item fw-bold text-white">
+                                    <a class="" href="">Home</a>
+                                </li>
+                                <li class="nav-item fw-bold text-white">
+                                    <a class="" href="">Home</a>
+                                </li>
+                                <li class="nav-item fw-bold text-white">
+                                    <a class="" href="">Home</a>
+                                </li>
+                                <li class="nav-item fw-bold text-white">
+                                    <a class="" href="">Home</a>
+                                </li>
+                                <li class="nav-item fw-bold text-white">
+                                    <a class="" href="">Home</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item fw-bold text-white">
+                            <a class="" href="">Home</a>
+                        </li>
+                        <li class="nav-item fw-bold text-white">
+                            <a class="" href="">Home</a>
+                        </li>
+                        <li class="nav-item fw-bold text-white">
+                            <a class="" href="">Home</a>
+                        </li>
+                    </ul>
+
+                </li>
+                <li class="menu-title px-3 fw-bold text-white">
+                    <span>Title</span>
+                </li>
+                <li class="nav-item fw-bold text-white">
+                    <a class="menu-link main-link d-block active" data-bs-toggle="collapse" href="#homeMenu"
+                        role="button" aria-expanded="false" aria-controls="homeMenu">
+                        <i class="fa fa-home "></i>
+
+                        <span>Home</span>
+                    </a>
+                    <ul class="dropdown-menu pt-0  collapse" id="homeMenu">
+                        <li class="nav-item fw-bold text-white">
+                            <a class="" href="">Home</a>
+                        </li>
+                        <li class="nav-item fw-bold text-white">
+                            <a class="menu-link" data-bs-toggle="collapse" href="#homeMenu1" role="button"
+                                aria-expanded="false" aria-controls="homeMenu1">Home</a>
+                            <ul class="dropdown-menu pt-0  collapse" id="homeMenu1">
+                                <li class="nav-item fw-bold text-white">
+                                    <a class="" href="">Home</a>
+                                </li>
+                                <li class="nav-item fw-bold text-white">
+                                    <a class="" href="">Home</a>
+                                </li>
+                                <li class="nav-item fw-bold text-white">
+                                    <a class="" href="">Home</a>
+                                </li>
+                                <li class="nav-item fw-bold text-white">
+                                    <a class="" href="">Home</a>
+                                </li>
+                                <li class="nav-item fw-bold text-white">
+                                    <a class="" href="">Home</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item fw-bold text-white">
+                            <a class="" href="">Home</a>
+                        </li>
+                        <li class="nav-item fw-bold text-white">
+                            <a class="" href="">Home</a>
+                        </li>
+                        <li class="nav-item fw-bold text-white">
+                            <a class="" href="">Home</a>
+                        </li>
+                    </ul>
+
+                </li>
+
+
+            </ul>
+
+        </div>
+
+
+    </aside>
+
+    <!-- header -->
+    <header class="">
+        <div class="aside-toggle ">
+            <div class="toggle ">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="input-group">
+            <i class="fa fa-search"></i>
+            <input type="text" placeholder="Search...">
+        </div>
+        <ul class="nav navbar-nav nav-right flex-row">
+            <li class="nav-item search">
+                <a href="#" class="nav-link position-relative search-link">
+
+                    <i class="fa fa-search"></i>
+                </a>
+            </li>
+            <li class="nav-item lang">
+                <a class="nav-link lang-link" href="#">
+                    <span class="fi fi-us fis me-1 ms-1">
+                </a>
+                <ul class="dropdown-menu">
+                    <li>
+                        <a href="" class="nav-link text-center">
+                            <span class="fi fi-us fis me-4 ms-3"></span>
+                            English
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="nav-link text-center">
+                            <span class="fi fi-fr fis me-4 ms-3"></span>
+                            French
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="nav-link text-center">
+                            <span class="fi fi-sa fis me-4 ms-3"></span>
+                            Arabic
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="nav-item notification">
+                <a href="#" class="nav-link position-relative noti-link">
+                    <div class="text-white position-absolute noti-num">
+                        2
+                    </div>
+                    <i class="far fa-bell"></i>
+                </a>
+                <div class="card noti-container">
+                    <div class="card-header">
+                        <h6> <span>Notification</span>
+                            <p class="badge badge-soft-light fs-13" style="background-color: rgba(243,246,249,.1);">
+                                <span>4</span> New
+                            </p>
+                        </h6>
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link active" role="presentation" id="all-tab"
+                                    data-bs-toggle="tab" data-bs-target="#all" type="button" role="tab"
+                                    aria-controls="all" aria-selected="true">
+                                    All (4)
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link " role="presentation" id="Messages-tab" data-bs-toggle="tab"
+                                    data-bs-target="#Messages" type="button" role="tab" aria-controls="Messages"
+                                    aria-selected="false">
+                                    Messages
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link " role="presentation" id="Alerts-tab" data-bs-toggle="tab"
+                                    data-bs-target="#Alerts" type="button" role="tab" aria-controls="Alerts"
+                                    aria-selected="false">
+                                    Alerts
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card-body mCustomScrollbar1" data-mcs-theme="dark">
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="all" role="tabpanel" aria-labelledby="all-tab">
+                                <a href="" class="message-container">
+                                    <div class="message-img">
+                                        <i class="fa fa-user"></i>
+                                    </div>
+                                    <div>
+                                        <p class="message-title">Message Title</p>
+                                        <p class="message-content">Message Content , Message Content</p>
+                                        <p class="message-date"><i class="fa fa-clock"></i> JUST 30 SEC AGO</p>
+                                    </div>
+
+                                </a>
+                                <a href="" class="message-container">
+                                    <div class="message-img">
+                                        <i class="fa fa-user"></i>
+                                    </div>
+                                    <div>
+                                        <p class="message-title">Message Title</p>
+                                        <p class="message-content">Message Content , Message Content</p>
+                                        <p class="message-date"><i class="fa fa-clock"></i> JUST 30 SEC AGO</p>
+                                    </div>
+
+                                </a>
+                                <a href="" class="message-container">
+                                    <div class="message-img">
+                                        <i class="fa fa-user"></i>
+                                    </div>
+                                    <div>
+                                        <p class="message-title">Message Title</p>
+                                        <p class="message-content">Message Content , Message Content</p>
+                                        <p class="message-date"><i class="fa fa-clock"></i> JUST 30 SEC AGO</p>
+                                    </div>
+
+                                </a>
+                                <a href="" class="message-container">
+                                    <div class="message-img">
+                                        <i class="fa fa-user"></i>
+                                    </div>
+                                    <div>
+                                        <p class="message-title">Message Title</p>
+                                        <p class="message-content">Message Content , Message Content</p>
+                                        <p class="message-date"><i class="fa fa-clock"></i> JUST 30 SEC AGO</p>
+                                    </div>
+
+                                </a>
+                            </div>
+                            <div class="tab-pane fade" id="Messages" role="tabpanel" aria-labelledby="Messages-tab"> <a
+                                    href="" class="message-container">
+                                    <div class="message-img">
+                                        <i class="fa fa-user"></i>
+                                    </div>
+                                    <div>
+                                        <p class="message-title">Message Title</p>
+                                        <p class="message-content">Message Content , Message Content</p>
+                                        <p class="message-date"><i class="fa fa-clock"></i> JUST 30 SEC AGO</p>
+                                    </div>
+
+                                </a>
+                                <a href="" class="message-container">
+                                    <div class="message-img">
+                                        <i class="fa fa-user"></i>
+                                    </div>
+                                    <div>
+                                        <p class="message-title">Message Title</p>
+                                        <p class="message-content">Message Content , Message Content</p>
+                                        <p class="message-date"><i class="fa fa-clock"></i> JUST 30 SEC AGO</p>
+                                    </div>
+
+                                </a>
+                                <a href="" class="message-container">
+                                    <div class="message-img">
+                                        <i class="fa fa-user"></i>
+                                    </div>
+                                    <div>
+                                        <p class="message-title">Message Title</p>
+                                        <p class="message-content">Message Content , Message Content</p>
+                                        <p class="message-date"><i class="fa fa-clock"></i> JUST 30 SEC AGO</p>
+                                    </div>
+
+                                </a>
+                            </div>
+                            <div class="tab-pane fade" id="Alerts" role="tabpanel" aria-labelledby="Alerts-tab">..sadad.
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item profile">
+                <a href="#" class="nav-link prof-link">
+                    <i class="far fa-user"></i>
+                </a>
+                <ul class="dropdown-menu ">
+                    <li>
+                        <p class="p-2 mb-0 fw-bolder" style="font-size: 12px; padding-left: .8rem !important;">Welcom
+                            User !</p>
+                    </li>
+                    <li>
+
+                        <a href="" class="nav-link text-center">
+                            <i class="fa fa-user-circle me-2"></i>
+                            Profile
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="nav-link text-center">
+                            <i class="fa fa-message me-2"></i>
+                            Message
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="nav-link text-center">
+                            <i class="fa fa-life-ring me-2"></i>
+                            Help
+                        </a>
+                    </li>
+                    <hr>
+                    <li>
+                        <a href="" class="nav-link text-center">
+                            <i class="fa fa-wallet me-2"></i>
+                            Balance : <span style="color: black;">$12312</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="nav-link text-center">
+                            <i class="fa fa-cog me-2"></i>
+                            Settings
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="nav-link text-center">
+                            <i class="fa fa-sign-out me-2"></i>
+                            Logout
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </header>
+
+    <!-- Main -->
+    <main class="">
+        <div class="container-fluid">
+            <div class="row mx-0 my-3">
+                <div class="col-xxl-3 col-12 mb-3">
+                    <div class="card shadow-none mb-3">
+                        <div class="card-body bg-soft-info rounded">
+                            <div class="d-flex">
+                                <div class="flex-shrink-0">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="feather feather-calendar text-info icon-dual-info">
+                                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                        <line x1="16" y1="2" x2="16" y2="6"></line>
+                                        <line x1="8" y1="2" x2="8" y2="6"></line>
+                                        <line x1="3" y1="10" x2="21" y2="10"></line>
+                                    </svg>
+                                </div>
+                                <div class="flex-grow-1 ms-3">
+                                    <h6 class="fs-15">Welcome to your Calendar!</h6>
+                                    <p class="text-muted mb-0">Event that applications book will appear here. Click on
+                                        an event to see the details and manage applicants event.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h5 class="mb-1">Upcoming Events</h5>
+                        <p class="text-muted">Don't miss scheduled events</p>
+                        <div id="upcoming-event-list" class="mCustomScrollbar2" data-mcs-theme="dark" style="max-height: 430px;">
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <div class="d-flex mb-3">
+                                        <div class="flex-grow-1"><i
+                                                class="mdi mdi-checkbox-blank-circle me-2 text-info"></i><span
+                                                class="fw-medium">4 Jan 2022 </span></div>
+                                        <div class="flex-shrink-0"><small
+                                                class="badge badge-soft-primary ms-auto">2:00 AM
+                                                to 12:00 AM</small></div>
+                                    </div>
+                                    <h6 class="card-title fs-16"> World Braille Day</h6>
+                                    <p class="text-muted text-truncate-two-lines mb-0"> </p>
+                                </div>
+                            </div>
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <div class="d-flex mb-3">
+                                        <div class="flex-grow-1"><i
+                                                class="mdi mdi-checkbox-blank-circle me-2 text-info"></i><span
+                                                class="fw-medium">30 Jan 2022 </span></div>
+                                        <div class="flex-shrink-0"><small
+                                                class="badge badge-soft-primary ms-auto">2:00 AM
+                                                to 12:00 AM</small></div>
+                                    </div>
+                                    <h6 class="card-title fs-16"> World Leprosy Day</h6>
+                                    <p class="text-muted text-truncate-two-lines mb-0"> </p>
+                                </div>
+                            </div>
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <div class="d-flex mb-3">
+                                        <div class="flex-grow-1"><i
+                                                class="mdi mdi-checkbox-blank-circle me-2 text-info"></i><span
+                                                class="fw-medium">21 Feb 2022 </span></div>
+                                        <div class="flex-shrink-0"><small
+                                                class="badge badge-soft-primary ms-auto">2:00 AM
+                                                to 12:00 AM</small></div>
+                                    </div>
+                                    <h6 class="card-title fs-16"> International Mother Language
+                                        Day</h6>
+                                    <p class="text-muted text-truncate-two-lines mb-0"> </p>
+                                </div>
+                            </div>
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <div class="d-flex mb-3">
+                                        <div class="flex-grow-1"><i
+                                                class="mdi mdi-checkbox-blank-circle me-2 text-info"></i><span
+                                                class="fw-medium">22 Feb 2022 </span></div>
+                                        <div class="flex-shrink-0"><small
+                                                class="badge badge-soft-primary ms-auto">2:00 AM
+                                                to 12:00 AM</small></div>
+                                    </div>
+                                    <h6 class="card-title fs-16"> World Thinking Day</h6>
+                                    <p class="text-muted text-truncate-two-lines mb-0"> </p>
+                                </div>
+                            </div>
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <div class="d-flex mb-3">
+                                        <div class="flex-grow-1"><i
+                                                class="mdi mdi-checkbox-blank-circle me-2 text-info"></i><span
+                                                class="fw-medium">8 Mar 2022 </span></div>
+                                        <div class="flex-shrink-0"><small
+                                                class="badge badge-soft-primary ms-auto">2:00 AM
+                                                to 12:00 AM</small></div>
+                                    </div>
+                                    <h6 class="card-title fs-16"> International Women's Day</h6>
+                                    <p class="text-muted text-truncate-two-lines mb-0"> </p>
+                                </div>
+                            </div>
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <div class="d-flex mb-3">
+                                        <div class="flex-grow-1"><i
+                                                class="mdi mdi-checkbox-blank-circle me-2 text-info"></i><span
+                                                class="fw-medium">21 Mar 2022 </span></div>
+                                        <div class="flex-shrink-0"><small
+                                                class="badge badge-soft-primary ms-auto">2:00 AM
+                                                to 12:00 AM</small></div>
+                                    </div>
+                                    <h6 class="card-title fs-16"> International Mother Language
+                                        Day</h6>
+                                    <p class="text-muted text-truncate-two-lines mb-0"> </p>
+                                </div>
+                            </div>
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <div class="d-flex mb-3">
+                                        <div class="flex-grow-1"><i
+                                                class="mdi mdi-checkbox-blank-circle me-2 text-info"></i><span
+                                                class="fw-medium">22 Mar 2022 </span></div>
+                                        <div class="flex-shrink-0"><small
+                                                class="badge badge-soft-primary ms-auto">2:00 AM
+                                                to 12:00 AM</small></div>
+                                    </div>
+                                    <h6 class="card-title fs-16"> World Water Day</h6>
+                                    <p class="text-muted text-truncate-two-lines mb-0"> </p>
+                                </div>
+                            </div>
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <div class="d-flex mb-3">
+                                        <div class="flex-grow-1"><i
+                                                class="mdi mdi-checkbox-blank-circle me-2 text-info"></i><span
+                                                class="fw-medium">7 Apr 2022 </span></div>
+                                        <div class="flex-shrink-0"><small
+                                                class="badge badge-soft-primary ms-auto">2:00 AM
+                                                to 12:00 AM</small></div>
+                                    </div>
+                                    <h6 class="card-title fs-16"> World Health Day</h6>
+                                    <p class="text-muted text-truncate-two-lines mb-0"> </p>
+                                </div>
+                            </div>
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <div class="d-flex mb-3">
+                                        <div class="flex-grow-1"><i
+                                                class="mdi mdi-checkbox-blank-circle me-2 text-info"></i><span
+                                                class="fw-medium">16 Apr 2022 </span></div>
+                                        <div class="flex-shrink-0"><small
+                                                class="badge badge-soft-primary ms-auto">2:00 AM
+                                                to 12:00 AM</small></div>
+                                    </div>
+                                    <h6 class="card-title fs-16"> International Special
+                                        Librarians Day</h6>
+                                    <p class="text-muted text-truncate-two-lines mb-0"> </p>
+                                </div>
+                            </div>
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <div class="d-flex mb-3">
+                                        <div class="flex-grow-1"><i
+                                                class="mdi mdi-checkbox-blank-circle me-2 text-info"></i><span
+                                                class="fw-medium">22 Apr 2022 </span></div>
+                                        <div class="flex-shrink-0"><small
+                                                class="badge badge-soft-primary ms-auto">2:00 AM
+                                                to 12:00 AM</small></div>
+                                    </div>
+                                    <h6 class="card-title fs-16"> Earth Day</h6>
+                                    <p class="text-muted text-truncate-two-lines mb-0"> </p>
+                                </div>
+                            </div>
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <div class="d-flex mb-3">
+                                        <div class="flex-grow-1"><i
+                                                class="mdi mdi-checkbox-blank-circle me-2 text-primary"></i><span
+                                                class="fw-medium">1 Jan 2023 </span></div>
+                                        <div class="flex-shrink-0"><small
+                                                class="badge badge-soft-primary ms-auto">Full
+                                                day event</small></div>
+                                    </div>
+                                    <h6 class="card-title fs-16"> All Day Event</h6>
+                                    <p class="text-muted text-truncate-two-lines mb-0"> An
+                                        all-day event is an event that lasts an entire day or
+                                        longer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xxl-9 col-12">
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <div id='calendar-container'>
+                                <div id='calendar'></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="../../Js/Shared/jquery-3.6.0.min.js"></script>
+    <script src="../../Js/Shared/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.0/jquery-migrate.min.js"
+        integrity="sha512-QDsjSX1mStBIAnNXx31dyvw4wVdHjonOwrkaIhpiIlzqGUCdsI62MwQtHpJF+Npy2SmSlGSROoNWQCOFpqbsOg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="//cdn.jsdelivr.net/jquery.mcustomscrollbar/3.0.6/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.0.3/index.global.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/bootstrap5@6.0.3/index.global.min.js"></script>
+    <script src="../../Js/sharedDash/shared.js"></script>
+    <script src="../../Js/student/studentCalendar.js"></script>
+</body>
+
+</html>

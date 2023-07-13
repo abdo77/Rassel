@@ -1,0 +1,335 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prices</title>
+
+    <!-- Css Files -->
+    <link rel="stylesheet" href="../../Css/Shared/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/6.6.4/css/flag-icons.min.css"
+        integrity="sha512-uvXdJud8WaOlQFjlz9B15Yy2Au/bMAvz79F7Xa6OakCl2jvQPdHD0hb3dEqZRdSwG4/sknePXlE7GiarwA/9Wg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+        integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+        integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../../Css/landingPage/Shared.css">
+    <link rel="stylesheet" href="../../Css/landingPage/Books.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <a href="Home.html" class="logo">
+                <img src="../../Assests/Rassel-logos_transparent.png" alt="">
+            </a>
+            <nav>
+                <ul class="nav navbar mx-auto nav-left">
+                    <li class="nav-item"><a class="nav-link" href="Home.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Courses.html">Courses</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Prices.html">Prices</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Books.html">Books</a></li>
+                    <li class="nav-item"><a class="nav-link" href="About.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Contact.html">Contact</a></li>
+                </ul>
+                <ul class="nav navbar  m-0 nav-right not-logged">
+                    <li class="nav-item d-flex align-items-center"><a class="nav-link p-1" href="singIn.html"><i
+                                class="far fa-user ms-1 me-1"></i> Sign In</a><span style="color: black">/</span><a
+                            class="nav-link p-1" href="signUp.html">Sign
+                            Up</a></li>
+                </ul>
+                <ul class="nav navbar  m-0 nav-right logged">
+                    <li class="nav-item d-flex align-items-center"><a class="nav-link p-2"
+                            href="../Student/StudentHome.html"><i class="fa fa-home ms-1 me-1"></i> Dashboard</a><span
+                            style="color: black">/</span>
+                        <a class="nav-link p-2 signOut" href="Home.html"><i class="fa fa-sign-out ms-1 me-1"></i> Sign
+                            Out</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="language-container ">
+                <button class="selected-lang"><span class="fi fi-us fis ms-1 me-1"></span> <span>EN</span> <i
+                        class="fa fa-chevron-down me-1 ms-1" style="font-size:12px"></i></button>
+                    <select  name="" class="d-none" id="langSelector">
+
+                        <option value="en">Engilsh</option>
+                        <option value="fr">Frensh</option>
+                        <option value="ar">Arabic</option>
+                    </select>
+                
+                    <div class="dropdown-menu">
+                    <div class="dropdown-item " style="cursor:pointer" ><span class="fi fi-us fis me-1 ms-1"></span>EN</div>
+                    <div class="dropdown-item " style="cursor:pointer" ><span class="fi fi-sa fis me-1 ms-1"></span>AR</div>
+                    <div class="dropdown-item " style="cursor:pointer" ><span class="fi fi-fr fis me-1 ms-1"></span>FR</div>
+                </div>
+            </div>
+            <div class="menu-btn">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <!-- The most comp book section -->
+        <div class="mostComp-book-container bg-light">
+            <div class="container" style="max-width: 1140px;">
+                <div class="row mx-0 align-items-center">
+                    <div class="col-xl-6 col-lg-6 col-12">
+                        <div class="title-heading me-lg-4">
+                            <h4 class="display-4 fw-bold mb-3">
+                                The Most Comprehensive Book!
+                            </h4>
+                            <p class="text-muted">
+                                Start working with <span style="color:#2f55d4 ;">Rassel</span> that can provide
+                                everything you need to generate awareness, drive traffic, connect.
+                            </p>
+                            <div class="mt-4 pt-2"><a class="btn btn-soft-primary m-1" href="#">Buy Now @
+                                    $16</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-12">
+                        <div class="bg-white p-5 rounded-3"><img src="../../Assests/book.05182365.png"
+                                class="img-fluid mx-auto d-block" alt="Landrick"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- about book section -->
+        <div class="aboutBook-container bg-white">
+            <div class="container" style="max-width: 1140px">
+                <div class="row mx-0 align-items-center">
+                    <div class="col-xl-6 col-lg-6 col-12">
+                        <div class="bg-light p-5 rounded-3"><img src="../../Assests/about.fffeb072.png"
+                                class="img-fluid mx-auto d-block" alt="Landrick"></div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-12">
+                        <h2 class="title mb-4 fw-bold">
+                            About the Book
+                        </h2>
+                        <p class="text-muted">
+                            Start working with Landrick that can provide everything you need to generate awareness,
+                            drive traffic, connect.
+                        </p>
+                        <ul class="list-unstyled text-muted my-4">
+                            <li class="list-inline-item mx-lg-2 my-1 mx-2"><span style="color: #2f55d4" class=" h5 mx-2"><i
+                                        class="far fa-check-circle align-middle"></i></span>Organize your data</li>
+                            <li class="list-inline-item mx-lg-2 my-1 mx-2"><span style="color: #2f55d4" class=" h5 mx-2"><i
+                                        class="far fa-check-circle align-middle"></i></span>Work with any team</li>
+                            <li class="list-inline-item mx-lg-2 my-1 mx-2"><span style="color: #2f55d4" class=" h5 mx-2"><i
+                                        class="far fa-check-circle align-middle"></i></span>Business analytics</li>
+                            <li class="list-inline-item mx-lg-2 my-1 mx-2"><span style="color: #2f55d4" class=" h5 mx-2"><i
+                                        class="far fa-check-circle align-middle"></i></span>Always in sync</li>
+                            <li class="list-inline-item mx-lg-2 my-1 mx-2"><span style="color: #2f55d4" class=" h5 mx-2"><i
+                                        class="far fa-check-circle align-middle"></i></span>Embedded analytics</li>
+                        </ul>
+                        <div class="author d-flex flex-wrap align-items-center">
+                            <img src="../../Assests/149071.png" style="width: 65px;" alt="" class="img-fluid rounded-circle overflow-hidden">
+                            <div class="px-2">
+                                <p class="title mb-1 fw-bold">
+                                    Cristina Murphy
+                                </p>
+                                <span class="text-muted">Author</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mx-0 align-items-center py-5">
+                    <div class="feature d-flex col-xl-4 col-lg-4 col-md-2 col-12 mt-4">
+                        <div class="feature-icon position-relative mb-auto">
+                            <i class="fa fa-user"></i>
+                        </div>
+                        <div class="feature-content px-3">
+                            <h5>Experienced Author</h5>
+                            <p>This is required when, for text is not yet available.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="feature d-flex col-xl-4 col-lg-4 col-md-2 col-12 mt-4">
+                        <div class="feature-icon position-relative mb-auto">
+                            <i class="fa fa-circle-dollar-to-slot"></i>
+                        </div>
+                        <div class="feature-content px-3">
+                            <h5>Money Back</h5>
+                            <p>This is required when, for text is not yet available.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="feature d-flex col-xl-4 col-lg-4 col-md-2 col-12 mt-4">
+                        <div class="feature-icon position-relative mb-auto">
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <div class="feature-content px-3">
+                            <h5>Innovative Content</h5>
+                            <p>This is required when, for text is not yet available.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- book price -->
+        <div class="bookPrice-container bg-light">
+            <div class="container" style="max-width:1140px">
+                <div class="section-header text-center text-wrap">
+                    <h2 style="font-weight:bold" class="title">Book Pricing</h2>
+                    <p class="text-wrap mt-4">Start working with <span
+                            style="color:#2f55d4;font-weight: bold;">Rassel</span> that can provide
+                        everything you need to learn</p>
+                </div>
+                <div class="row mx-0">
+                    <div class="row col-lg-9 col-md-11 col-12 mx-auto my-5 py-5 align-items-center">
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-12 my-2">
+                            <div class="card price-div rounded-3">
+                                <div class="card-body">
+                                    <h6 class="title fw-bold text-uppercase text-center my-4" style="color: #2f55d4;">
+                                        Print</h6>
+                                    <div class="d-flex justify-content-center mb-4"><span class="h4 mb-0 mt-1">$</span><span
+                                            class="price h1 mb-0">59</span><span class="h4 align-self-end mb-1">/mo</span></div>
+                                    <p class="text-muted">
+                                        Explore everything from machine learning and global payments to scaling your team.
+                                    </p>
+                                    <a href="#" class="btn btn-primary my-2 mb-3 px-4 mx-auto shadow-none text-center">
+                                        Get Started
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-12 my-2">
+                            <div class="card price-div rounded-3">
+                                <div class="ribbon ribbon-right ribbon-warning overflow-hidden"><span
+                                        class="text-center d-block shadow h6">Best</span></div>
+                                <div class="card-body ">
+                                    <h6 class="title fw-bold text-uppercase text-center my-4" style="color: #2f55d4;">
+                                        eBook</h6>
+                                    <div class="d-flex justify-content-center mb-4"><span class="h4 mb-0 mt-1">$</span><span
+                                            class="price h1 mb-0">59</span><span class="h4 align-self-end mb-1">/mo</span></div>
+                                    <p class="text-muted">
+                                        Explore everything from machine learning and global payments to scaling your team.
+                                    </p>
+                                    <a href="#" class="btn btn-primary my-2 mb-3 px-4 mx-auto shadow-none text-center">
+                                        Get Started
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-12 my-2">
+                            <div class="card price-div rounded-3">
+                                <div class="card-body">
+                                    <h6 class="title fw-bold text-uppercase text-center my-4" style="color: #2f55d4;">
+                                        PDf</h6>
+                                    <div class="d-flex justify-content-center mb-4"><span class="h4 mb-0 mt-1">$</span><span
+                                            class="price h1 mb-0">59</span><span class="h4 align-self-end mb-1">/mo</span></div>
+                                    <p class="text-muted">
+                                        Explore everything from machine learning and global payments to scaling your team.
+                                    </p>
+                                    <a href="#" class="btn btn-primary my-2 mb-3 px-4 mx-auto shadow-none text-center">
+                                        Get Started
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- other books section -->
+        <div class="otherBooks-container bg-white">
+            <div class="container" style="max-width: 1140px">
+                <div class="section-header text-center text-wrap ">
+                    <h2 style="font-weight:bold" class="title ">Other Books</h2>
+                    <ul class="nav nav-pills mb-3 mx-auto text-center justify-content-center p-0 mt-5" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link active" id="pills-level1-tab" data-bs-toggle="pill" data-bs-target="#pills-level1" type="button" role="tab" aria-controls="pills-level1" aria-selected="true">Level 1</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link" id="pills-level2-tab" data-bs-toggle="pill" data-bs-target="#pills-level2" type="button" role="tab" aria-controls="pills-level2" aria-selected="false">Level 2</button>
+                        </li>
+                      </ul>
+                </div>
+            </div>
+            
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane  fade show active" id="pills-level1" role="tabpanel" aria-labelledby="pills-level1-tab">
+                    <div id="owl1" class="owl-carousel px-5">
+                
+                
+                
+                    </div>
+                </div>
+                <div class="tab-pane fade show active " id="pills-level2" role="tabpanel" aria-labelledby="pills-level2-tab">
+                    <div id="owl2" class="owl-carousel px-5">
+                
+                
+                
+                    </div>
+                </div>
+              </div>
+            
+        </div>
+        <!-- coming Book section -->
+        <div class="comingBook-container">
+            <div class="container" style="max-width: 1140px">
+                <div class="row mx-0">
+                    <div class="col-lg-4 col-md-5 col-12 position-relative img">
+                        <img src="../../Assests/6.b2816908.jpg" class="img-fluid rounded-3 w-100 shadow" alt="">
+                    </div>
+                    <div class="col-lg-7 col-md-7 col-12 px-5 py-2">
+                        <h2 class="title fw-bold text-white mb-3">
+                            Upcoming Book
+                        </h2>
+                        <p class="text-white-50">
+                            Start working with Landrick that can provide everything you need to generate awareness, drive traffic, connect.
+                        </p>
+                        <div class="mt-4 pt-2"><a class="btn btn-warning text-white fw-bold" href="/index-ebook">Pre-order Now</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+
+    </footer>
+
+    <!-- aside button -->
+
+    <aside role="button" aria-label="Scroll to top of page" tabindex="0" data-testid="react-scroll-up-button"
+        class="classForContainer " style="height: 36px; width: 36px;"><svg width="24" height="24" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="feather feather-arrow-up icons">
+            <g>
+                <line x1="12" y1="19" x2="12" y2="5"></line>
+                <polyline points="5 12 12 5 19 12"></polyline>
+            </g>
+        </svg></aside>
+
+
+
+    <!-- Script Files -->
+    <script src="../../Js/Shared/jquery-3.6.0.min.js"></script>
+    <script src="../../Js/Shared/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/6.0.0/bootbox.min.js" integrity="sha512-oVbWSv2O4y1UzvExJMHaHcaib4wsBMS5tEP3/YkMP6GmkwRJAa79Jwsv+Y/w7w2Vb/98/Xhvck10LyJweB8Jsw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../../Js/LandingPage/Shared.js"></script>
+    <script src="../../Js/LandingPage/Books.js"></script>
+</body>
+
+</html>

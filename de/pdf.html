@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../Css/Shared/bootstrap.min.css">
+
+    <style type="text/css" media="print">
+        body { visibility: hidden; display: none }
+    </style>
+
+    <style>
+        .printable { display:none; }
+@media only print {
+    body { display:none !important; }  
+}
+    </style>
+</head>
+<script>
+    //disable screen shot
+    document.addEventListener('keyup',  (e) => {
+    if (e.key == 'PrintScreen') {
+        navigator.clipboard.writeText('');
+        alert('Screenshots disabled!');
+         
+
+    }
+});
+
+
+
+
+</script>
+<body id="body">
+    <div class="">
+        <body>
+            <object data="de.pdf#toolbar=0&navpanes=0&scrollbar=0&view=fit" type="application/pdf" style="padding-top: 50px;" width="100%" height="100%">
+            </object>
+          </body>
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="../../Js/Shared/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.0/jquery-migrate.min.js"
+        integrity="sha512-QDsjSX1mStBIAnNXx31dyvw4wVdHjonOwrkaIhpiIlzqGUCdsI62MwQtHpJF+Npy2SmSlGSROoNWQCOFpqbsOg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="../de/pdf.js"></script>
+</body>
+</html>

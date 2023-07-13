@@ -1,0 +1,122 @@
+main{
+    padding-top: 200px;
+}
+.section-header p {
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #9ba2aa;
+}
+.pricing-container , .pFeatures-container{
+    max-width: 1140px;
+}
+.title{
+    letter-spacing: .5px;
+    font-size: 30px!important;
+}
+.pricing-container .price-div{
+    background-color: #F8F9FC;
+    border: 0px;
+    border-bottom: 3px solid #9ba2aa;
+    margin-top: auto;
+    position: relative;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    transition: all .5s ease-in-out;
+    margin-bottom: auto;
+}
+.pricing-container .price-div:hover{
+    border-bottom: 3px solid #2f55d4;
+    transform: scale(1.03);
+    box-shadow: 0 5px 13px rgba(60,72,88,.2)!important;
+}
+.ribbon.ribbon-right {
+    right: -5px;
+}
+.ribbon {
+    position: absolute;
+    top: -5px;
+    width: 75px;
+    height: 75px;
+    z-index: 2;
+}
+.ribbon.ribbon-right span {
+    right: -23px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.ribbon.ribbon-warning span {
+    background-color: #f17425!important;
+}
+.ribbon span {
+    position: absolute;
+    top: 15px;
+    width: 100px;
+    color: #fff;
+    font-weight: bold;
+    padding: 2px;
+}
+.ribbon.ribbon-warning span:before {
+    border-left-color: #d55b0e;
+    border-top-color: #d55b0e;
+}
+
+.ribbon span:before {
+    left: 0px;
+}
+.ribbon.ribbon-warning span:after {
+    border-right-color: #d55b0e;
+    border-top-color: #d55b0e;
+}
+.ribbon span:after {
+    right: 0px;
+}
+.ribbon span:after, .ribbon span:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    z-index: -1;
+    border: 4px solid transparent;
+}
+
+.price-div .card-body{
+    text-align: center;
+}
+.price-div .card-body a{
+    background-color: #2f55d4;
+}
+.price-div .card-body a:hover{
+    background-color: #2949b0;
+}
+.price-div li{
+    color: #aeb7c2  !important;
+}
+.payments{
+    align-items: center;
+    justify-content: center;
+}
+.payments img{
+    height: 65px;
+    width: 65px;
+
+}
+.payments img.shadow{
+    box-shadow: 0 0 3px rgba(60,72,88,.15)!important;
+}
+.pFeature{
+    background-color: #F8F9FC;
+    border: 0px;
+}
+.rounded-3{
+    border-radius: 7px !important;
+}
+.pFeature .card-body{
+    padding-top: 60px;
+    background-color: #F8F9FC;
+}
+.pFeature i{
+    font-size: 40px;
+}
+.pFeature .card-text{
+    color: #8f959b;
+}

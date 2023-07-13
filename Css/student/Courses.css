@@ -1,0 +1,97 @@
+.btn-success{
+    background-color: #37a26a;
+    border-color: #37a26a;
+    font-size: 0.7rem;
+}
+.btn-success:hover , .btn-success:focus{
+    background-color: #2f885a;
+    border-color: #2f885a;
+}
+main , main h6 , main .dropdown-item , main .dropdown{
+    font-size: 0.8125rem !important;
+}
+
+
+
+main .form-control{
+    font-size: 0.8125rem;
+    padding-left: 40px;
+}
+main .form-select{
+    font-size: 0.8125rem;
+}
+main .input-group i{
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size:14px ;
+    z-index: 10;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+main .form-control:focus{
+    border-color: #4b38b3;
+    
+}
+.select2-results__option{
+    font-size: 0.8125rem;
+}
+.select2-results__option:hover{
+    background-color: #f3f6f9;
+}
+.select2-container--default .select2-results__option--highlighted.select2-results__option--selectable , .select2-container--default .select2-results__option--selected{
+    background-color:#f2f2f2 ;
+    color: black;
+}
+.select2-search--dropdown .select2-search__field {
+    padding: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.select2-container--default .select2-selection--single:focus{
+    border-color: #4b38b3;
+    transition: all .3s ease-in-out;
+}
+.select2-container--default .select2-search--dropdown .select2-search__field{
+    outline: none !important;
+    font-size:0.8125rem ;
+}
+.select2-container--default .select2-search--dropdown .select2-search__field{
+    border: 1px solid #ced4da;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered{
+    line-height: normal;
+    font-size:0.8125rem ;
+    align-items: center;
+    padding: .6rem .75rem;
+    
+}
+.select2-container .select2-selection--single{
+    height: auto;
+    border-color: #ced4da;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow{
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.text-truncate-two-lines {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+}
+.progress-bar{
+    height: 5px;
+    background-color: rgba(69,203,133,.18)!important;
+}
+.progress-bar .bar{
+    background-color: rgb(69,203,133);
+    height: 5px;
+}

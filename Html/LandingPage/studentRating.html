@@ -1,0 +1,228 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students Level</title>
+
+    <!-- Css Files -->
+    <link rel="stylesheet" href="../../Css/Shared/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/6.6.4/css/flag-icons.min.css"
+        integrity="sha512-uvXdJud8WaOlQFjlz9B15Yy2Au/bMAvz79F7Xa6OakCl2jvQPdHD0hb3dEqZRdSwG4/sknePXlE7GiarwA/9Wg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+        integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+        integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/jplayer/2.9.2/skin/blue.monday/css/jplayer.blue.monday.css"
+        integrity="sha512-hy+p5g5kWOE+l5AHCBmTo1gq1OetErrJK8u6TT2WQYUVmINNwzu9pu7oyG2f6S+qRJnbGcHu/QXpC2FV4sAvSg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../../Css/landingPage/Shared.css">
+    <link rel="stylesheet" href="../../Css/landingPage/studentRating.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <a href="Home.html" class="logo">
+                <img src="../../Assests/Rassel-logos_transparent.png" alt="">
+            </a>
+            <nav>
+                <ul class="nav navbar mx-auto nav-left">
+                    <li class="nav-item"><a class="nav-link" href="Home.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Courses.html">Courses</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Prices.html">Prices</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Books.html">Books</a></li>
+                    <li class="nav-item"><a class="nav-link" href="About.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="studentRating.html">Students</a></li>
+                </ul>
+                <ul class="nav navbar  m-0 nav-right not-logged">
+                    <li class="nav-item d-flex align-items-center"><a class="nav-link p-1" href="singIn.html"><i
+                                class="far fa-user ms-1 me-1"></i> Sign In</a><span style="color: black">/</span><a
+                            class="nav-link p-1" href="signUp.html">Sign
+                            Up</a></li>
+                </ul>
+                <ul class="nav navbar  m-0 nav-right logged">
+                    <li class="nav-item d-flex align-items-center"><a class="nav-link p-2"
+                            href="../Student/StudentHome.html"><i class="fa fa-home ms-1 me-1"></i> Dashboard</a><span
+                            style="color: black">/</span>
+                        <a class="nav-link p-2 signOut" href="Home.html"><i class="fa fa-sign-out ms-1 me-1"></i> Sign
+                            Out</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="language-container ">
+                <button class="selected-lang"><span class="fi fi-us fis ms-1 me-1"></span> <span>EN</span> <i
+                        class="fa fa-chevron-down me-1 ms-1" style="font-size:12px"></i></button>
+                    <select  name="" class="d-none" id="langSelector">
+
+                        <option value="en">Engilsh</option>
+                        <option value="fr">Frensh</option>
+                        <option value="ar">Arabic</option>
+                    </select>
+                
+                    <div class="dropdown-menu">
+                    <div class="dropdown-item " style="cursor:pointer" ><span class="fi fi-us fis me-1 ms-1"></span>EN</div>
+                    <div class="dropdown-item " style="cursor:pointer" ><span class="fi fi-sa fis me-1 ms-1"></span>AR</div>
+                    <div class="dropdown-item " style="cursor:pointer" ><span class="fi fi-fr fis me-1 ms-1"></span>FR</div>
+                </div>
+            </div>
+            <div class="menu-btn">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <div class="contact-header bg-light">
+            <div class="section-header text-center text-wrap">
+                <div class="bg-overlay">
+                    <h2 style="font-weight:bold" class="title">Our Students</h2>
+
+                </div>
+            </div>
+        </div>
+        <div class="position-relative">
+            <div class="shape overflow-hidden text-white"><svg viewBox="0 0 2880 48" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
+                </svg></div>
+        </div>
+        
+        <!-- How do we works -->
+        <div class="container-fluid how-container bg-light">
+            
+            <div class="row mx-0">
+                
+                <div class="container">
+                    <div class="mt-100 mt-60 container">
+                        <div class="align-items-center mx-auto mb-4 pb-4 row">
+                            <div class="col-md-8 mx-auto">
+                                <div class="section-title text-center ">
+                                    <h6 class="text-primary">Services</h6>
+                                    <h4 class="title mb-4">What we do ?</h4>
+                                    <p class="text-muted mb-0 para-desc mx-auto">Start working with <span
+                                            class="text-primary fw-bold">Rassel</span> that can provide everything you
+                                        need to generate awareness, drive traffic, connect.</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="row">
+                            <div class="mt-4 pt-2 col-md-4">
+                                <ul class="nav nav-pills nav-justified flex-column rounded shadow p-3 mb-0 sticky-bar studentsName">
+                                    
+                                </ul>
+                            </div>
+                            <div class="mt-4 pt-2 col-12 col-md-8">
+                                <div class="tab-content">
+                                    <div class="tab-pane fade bg-white show p-4 rounded shadow active" id="studentDetails" role="tabpanel" aria-labelledby="studentDetails-tab">
+                                        <div class="pagintaion my-3 d-flex align-items-center justify-content-center">
+                                            <button class="btn shadow-none prev-level" style="color: #2f55d4;"><i class="fa fa-chevron-left"></i></button>
+                                            <p class="fw-bold mb-0 levelnum">Level <span>1</span></p>
+                                            <button class="btn shadow-none next-level" style="color: #2f55d4;"><i class="fa fa-chevron-right"></i></button>
+                                        </div>
+                                        <div class="ratingStars my-3 text-center">
+                                            <i class="fa fa-star text-warning"></i>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" style="width: 25%;background-color: #2f55d4;"  aria-valuemin="0" aria-valuemax="100">25%</div>
+                                          </div>
+
+                                          <div class="audio-wrapper my-3">
+                                            <div id="jquery_jplayer_1" class="jp-jplayer"></div>
+                                            <div id="jp_container_1" class="jp-audio" role="application" aria-label="media player">
+                                                <div class="jp-type-single">
+                                                    <div class="jp-gui jp-interface">
+                                                        <div class="jp-controls">
+                                                            <button class="jp-play" role="button" tabindex="0">play</button>
+                                                            <button class="jp-stop" role="button" tabindex="0">stop</button>
+                                                        </div>
+                                                        <div class="jp-progress">
+                                                            <div class="jp-seek-bar">
+                                                                <div class="jp-play-bar"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="jp-volume-controls">
+                                                            <button class="jp-mute" role="button" tabindex="0"></button>
+                                                            <button class="jp-volume-max" role="button" tabindex="0"></button>
+                                                            <div class="jp-volume-bar">
+                                                                <div class="jp-volume-bar-value"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="jp-time-holder">
+                                                            <div class="jp-current-time" role="timer" aria-label="time">&nbsp;</div>
+                                                            <div class="jp-duration" role="timer" aria-label="duration">&nbsp;</div>
+                                                            <div class="jp-toggles">
+                                                                <button class="jp-repeat" role="button" tabindex="0">repeat</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mt-4">
+                                            <p class="text-muted comment">This is required when, for example, the final text is
+                                                not yet available. Dummy text is also known as 'fill text'. It is said
+                                                that song composers of the past used dummy texts as lyrics.</p>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+
+    </footer>
+
+    <!-- aside button -->
+
+    <aside role="button" aria-label="Scroll to top of page" tabindex="0" data-testid="react-scroll-up-button"
+        class="classForContainer " style="height: 36px; width: 36px;"><svg width="24" height="24" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="feather feather-arrow-up icons">
+            <g>
+                <line x1="12" y1="19" x2="12" y2="5"></line>
+                <polyline points="5 12 12 5 19 12"></polyline>
+            </g>
+        </svg></aside>
+
+
+
+    <!-- Script Files -->
+    <script src="../../Js/Shared/jquery-3.6.0.min.js"></script>
+    <script src="../../Js/Shared/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jplayer/2.9.2/jplayer/jquery.jplayer.min.js"
+        integrity="sha512-g0etrk7svX8WYBp+ZDIqeenmkxQSXjRDTr08ie37rVFc99iXFGxmD0/SCt3kZ6sDNmr8sR0ISHkSAc/M8rQBqg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../../Js/LandingPage/Shared.js"></script>
+    <script src="../../Js/LandingPage/studentRating.js"></script>
+</body>
+
+</html>

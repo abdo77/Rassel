@@ -1,0 +1,18 @@
+body{
+    background-color: #F7F8FA;
+    font-family: "Cairo",sans-serif;
+}
+@font-face {
+    font-family: 'Cairo';
+    src: url('../../Assests/NunitoSans-Regular.ttf');
+}
+form button{
+    color: white !important;
+    background-color: #1A5CC4 !important;
+}
+form button:hover{
+    background-color: #15499e !important;
+}
+.text-muted{
+    color: #6582A4 !important;
+}

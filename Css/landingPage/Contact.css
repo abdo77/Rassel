@@ -1,0 +1,61 @@
+.contact-header{
+    padding-top: 200px;
+    background-color: #dfe3e8;
+    padding-bottom: 100px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.form-container{
+    padding: 20px 0px;
+}
+.feature2-icon {
+    text-align: center;
+    font-size: 25px;
+    border-radius: 5px;
+    z-index: 2;
+    position: relative;
+    padding: 20px;
+    color: #2f55d4!important;
+    background-color: rgba(47,85,212,.1)!important;
+}
+.contactMethods{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.text-muted {
+    color: #aeb7c2!important;
+}
+
+.form-icon .icons {
+    position: absolute;
+    top: 13px;
+    left: 18px;
+}
+
+.fea.icon-sm {
+    height: 16px;
+    width: 16px;
+}
+.form-control {
+    border: 1px solid #dee2e6;
+    font-size: 14px;
+    line-height: 26px;
+    background-color: #fff;
+    border-radius: 6px;
+}
+.btn-primary{
+    background-color: #2f55d4;
+}
+
+
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+}
+.form-control:focus {
+    border-color: #2f55d4;
+    box-shadow: none;
+}

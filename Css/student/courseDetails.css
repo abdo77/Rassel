@@ -1,0 +1,116 @@
+main , main .dropdown-item{
+    font-size: 0.8125rem !important;
+}
+
+.icon-container{
+    width: 70px;
+    height: 70px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #4b38b3;
+}
+main .nav-tabs .nav-item .nav-link{
+    color: #4b38b3;
+}
+main .nav-tabs .nav-item .nav-link.active:after {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+main .nav-tabs .nav-item .nav-link::after {
+    content: "";
+    background: #4b38b3;
+    height: 1px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    -webkit-transition: all 250ms ease 0s;
+    transition: all 250ms ease 0s;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+.badge-soft-success {
+    color: #45cb85;
+    background-color: rgba(69,203,133,.1);
+}
+.badge-soft-danger {
+    color: #f06548;
+    background-color: rgba(240,101,72,.1);
+}
+.badge-soft-warning {
+    color: orange;
+    background-color: rgba(163, 82, 6, 0.1);
+}
+.badge{
+    font-size: 0.6125rem;
+}
+.resource{
+    border: 1px solid lightgray;
+}
+.icon-container-sm{
+    font-size: 20px;
+    color: #4b38b3;
+}
+.fs-13{
+    font-size: 13px !important;
+}
+.btn{
+    font-size: 0.8125rem;   
+}
+.btn-success:hover {
+    color:#fff;
+    background-color: #3bad71;
+    border-color: #37a26a;
+}
+.btn-success {
+    color:#fff;
+    background-color: #45CB85;
+    border-color: #45CB85;
+}
+.text-success{
+    color: #45CB85 !important;
+}
+.badge-soft-primary {
+    color: #4b38b3;
+    background-color: rgba(75,56,179,.1);
+}
+.name-container{
+    font-size: 15px;
+}
+
+.students-container::-webkit-scrollbar , #home-1::-webkit-scrollbar   {
+    width: 7px;
+  }
+  
+  /* Track */
+  .students-container::-webkit-scrollbar-track ,#home-1::-webkit-scrollbar-track {
+    background: white; 
+  }
+   
+  /* Handle */
+  .students-container::-webkit-scrollbar-thumb , #home-1::-webkit-scrollbar-thumb {
+    background: #dcdbdb; 
+    border-radius: 20px;
+    visibility: hidden;
+    transition: all .3s ease-in-out;
+  }
+  
+  /* Handle on hover */
+  .students-container:hover::-webkit-scrollbar-thumb , #home-1:hover::-webkit-scrollbar-thumb {
+    visibility: visible;
+}
+.btn-primary{
+    background-color: #4b38b3;
+    border-color: #4b38b3 !important;
+    width: 100%;
+}
+.btn-primary:hover, .btn-primary:focus{
+    background-color: #3c2d8f;
+    border-color: #3c2d8f !important;
+}
+.fs-24{
+    font-size: 24px;
+}

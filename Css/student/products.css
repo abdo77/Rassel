@@ -1,0 +1,370 @@
+main {
+    font-size: 0.8125rem;
+}
+.bg-success {
+    --vz-bg-opacity: 1;
+    background-color: rgba(69,203,133,1)!important;
+}
+.badge{
+    font-size: 0.6125rem;
+}
+.fs-12{
+    font-size: 12px;
+}
+.form-check-input:checked {
+    background-color: #4b38b3;
+    border-color: #4b38b3;
+}
+.form-check-input:focus {
+    border-color: #4b38b3;
+    outline: 0;
+    box-shadow: none;
+}
+main .form-control , main .form-select{
+    font-size: .8125rem;
+}
+.btn{
+    font-size: 0.8125rem;
+
+}
+.btn-link{
+    color: #4b38b3;
+    box-shadow: 0 3px 3px rgba(56,65,74,0.1);
+}
+.btn-link:hover{
+    color: #4b38b3;
+}
+.fw-medium {
+    font-weight: 500;
+}
+
+.fs-12 {
+    font-size: 12px!important;
+}
+.accordion-button::after{
+    font-size: 0.6125rem;
+    background-size: 0.85rem;
+    background-position-y: center;
+}
+.card {
+    margin-bottom: 1.5rem;
+    -webkit-box-shadow: 0 3px 3px rgba(56,65,74,0.1);
+    box-shadow: 0 3px 3px rgba(56,65,74,0.1);
+}
+.btn-success {
+    color: #fff;
+    background-color: #45CB85;
+    border-color: #45CB85;
+    font-size: .8125rem;
+}
+.btn-success:hover{
+    color: #fff;
+    background-color: #3bad71;
+    border-color: #37a26a;
+}
+.search-box {
+    position: relative;
+}
+.search-box .form-control {
+    padding-left: 40px;
+}
+.search-box .search-icon {
+    font-size: 14px;
+    position: absolute;
+    left: 13px;
+    top: 0;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #878a99;
+}
+.form-control:focus ,.form-select:focus{
+    color: #212529;
+    background-color:#fff;
+    border-color: #a59cd9;
+    outline: 0;
+    -webkit-box-shadow: 0 0 0 0 rgb(75 56 179 / 25%);
+    box-shadow: 0 0 0 0 rgb(75 56 179 / 25%);
+}
+.nav-tabs-custom .nav-item .nav-link.active {
+    color: #4b38b3;
+}
+
+.nav-tabs-custom.card-header-tabs .nav-link {
+    padding: 1rem 1rem;
+}
+.nav-tabs-custom .nav-item .nav-link {
+    border: none;
+    font-weight: 500;
+    color: #4b38b3;
+}
+.nav-tabs-custom .nav-item .nav-link.active:after {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.nav-tabs-custom .nav-item .nav-link::after {
+    content: "";
+    background: #4b38b3;
+    height: 1px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    -webkit-transition: all 250ms ease 0s;
+    transition: all 250ms ease 0s;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+.nav-tabs-custom .nav-item .nav-link::after {
+    content: "";
+    background: #4b38b3;
+    height: 1px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    -webkit-transition: all 250ms ease 0s;
+    transition: all 250ms ease 0s;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+.nav-tabs-custom.card-header-tabs .nav-link {
+    padding: 1rem 1rem;
+    position: relative;
+}
+.badge-soft-danger {
+    color: #f06548;
+    background-color: rgba(240,101,72,.1);
+}
+.gridjs-border-none td.gridjs-td, .gridjs-border-none th.gridjs-th {
+    border-right-width: 0;
+    border-left-width: 0;
+}
+
+th.gridjs-th {
+    border-top: 0;
+    color: #212529;
+    background-color: rgba(243,246,249,.75);
+}
+td.gridjs-td, th.gridjs-th {
+    border: 1px solid #e9ebec;
+    padding: 0.75rem 0.6rem;
+    font-size: 0.8125rem ;
+    
+}
+.table-card .gridjs-wrapper {
+    border-top: 0;
+    border-radius: 0;
+    border-width: 1px 0;
+}
+
+.gridjs-wrapper {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 1px solid #e9ebec;
+    border-radius: 0;
+}
+.gridjs-pagination .gridjs-pages button.gridjs-currentPage {
+    background-color: #4b38b3;
+    color: #fff;
+    border-color: #4b38b3;
+    font-weight: 500;
+}
+.gridjs-pagination .gridjs-pages button {
+    margin-left: 0.3rem;
+    border-radius: 0.25rem!important;
+    border: 1px solid transparent;
+    background-color: var(--vz-card-bg-custom);
+    color: var(--vz-link-color);
+}
+.gridjs-pagination .gridjs-pages button:disabled, .gridjs-pagination .gridjs-pages button:hover:disabled, .gridjs-pagination .gridjs-pages button[disabled] {
+    color: #878a99;
+    background-color: #fff;
+}
+.gridjs-pagination .gridjs-pages button:last-child {
+    border-right: 1px solid transparent;
+}
+
+.gridjs-wrapper::-webkit-scrollbar-thumb {
+    background-color: rgba(grey,.075);
+    border-radius: 10px;
+    border: 2px solid var(--vz-card-bg-custom);
+}
+
+.gridjs-wrapper::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: var(--vz-card-bg-custom);
+}
+.table-card .gridjs-footer {
+    padding: 8px 16px;
+}
+
+.gridjs-footer {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 1px solid var(--vz-border-color);
+    border-top: 0;
+    background-color: transparent;
+}
+.gridjs-footer {
+    border: none!important;
+    padding: 12px 0 0;
+}
+.avatar-sm {
+    height: 3rem;
+    width: 3rem;
+}
+.fs-14 {
+    font-size: 14px !important;
+}
+a, button {
+    position: relative;
+    outline: 0px !important;
+}
+a {
+    text-decoration: none !important;
+}
+.form-check {
+    position: relative;
+    text-align: left;
+}
+.gridjs-border-none td.gridjs-td, .gridjs-border-none th.gridjs-th {
+    border-right-width: 0px;
+    border-left-width: 0px;
+}
+.table-card td:first-child, .table-card th:first-child {
+    padding-left: 16px;
+}
+td.gridjs-td:first-child {
+    border-left: none;
+}
+td.gridjs-td, th.gridjs-th {
+    border: 1px solid #e9ebec;
+    padding: 0.75rem 0.6rem;
+}
+.gridjs-tbody, td.gridjs-td {
+    background-color: transparent;
+}
+.table-card td:first-child, .table-card th:first-child {
+    padding-left: 16px;
+}
+th.gridjs-th {
+    border-top: 0px;
+    color: #212529;
+    background-color: rgba(243,246,249,0.75);
+}
+.table-card .gridjs-wrapper {
+    border-top: 1px;
+    border-radius: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 1px;
+    border-left-width: 0px;
+}
+.gridjs-wrapper {
+    box-shadow: none;
+    border: 1px solid #e9ebec;
+    border-radius: 0px;
+}
+.gridjs-container {
+    color: #212529;
+    padding: 0px;
+    display: block;
+}
+.card-header{
+    background-color: white;
+}
+.table-card {
+    margin: -1rem;
+}
+.gridjs-wrapper::-webkit-scrollbar {
+    appearance: none;
+}
+.gridjs-wrapper::-webkit-scrollbar-thumb {
+    background-color: rgba(33,37,41,0.075);
+    border-radius: 10px;
+    border: 4px solid #fff;
+    width: 2px;
+    height: 2px;
+}
+.gridjs-wrapper::-webkit-scrollbar-track {
+    border-radius: 10px;
+    width: 2px;
+    height: 2px;
+    background-color: #fff;
+}
+.gridjs-search{
+    display: none;
+}
+ td.gridjs-td,  th.gridjs-th {
+    border-right-width: 0px;
+    border-left-width: 0px;
+}
+.btn-soft-secondary {
+    color: #3577f1;
+    background-color: rgba(53, 119, 241, 0.1);
+    border-color: transparent;
+    
+
+}
+.btn-soft-secondary:hover{
+    color: #fff;
+    background-color: #306bd9;
+    border-color: transparent;
+}
+.btn-soft-secondary.active{
+    color: #fff;    ;
+    background-color: #2a5fc1;
+    border-color: transparent;
+}
+.btn-soft-secondary:focus{
+    
+    box-shadow: 0 3px 3px rgba( 53,119,241,0.1);
+
+}
+.btn {
+    -webkit-box-shadow: 0 3px 3px rgba(56,65,74,0.1);
+    box-shadow: 0 3px 3px rgba(56,65,74,0.1);
+}
+.dropdown-menu {
+    -webkit-box-shadow: 0 5px 10px rgb(30 32 37 / 12%);
+    box-shadow: 0 5px 10px rgb(30 32 37 / 12%);
+    -webkit-animation-name: DropDownSlide;
+    animation-name: DropDownSlide;
+    -webkit-animation-duration: .3s;
+    animation-duration: .3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    position: absolute;
+    z-index: 1000;
+    font-size: 0.8125rem !important;
+}
+menu a.dropdown-menu{
+    font-size: 0.8125rem !important;
+}
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.35rem 1.2rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+#selection-element {
+    display: none;
+}
+table th:first-child{
+    cursor: auto !important;
+}
+table th:first-child .gridjs-sort{
+    display: none;
+}

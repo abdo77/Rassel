@@ -1,0 +1,756 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Details</title>
+    <link rel="stylesheet" href="../../Css/Shared/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/6.6.4/css/flag-icons.min.css"
+        integrity="sha512-uvXdJud8WaOlQFjlz9B15Yy2Au/bMAvz79F7Xa6OakCl2jvQPdHD0hb3dEqZRdSwG4/sknePXlE7GiarwA/9Wg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/jquery.mcustomscrollbar/3.0.6/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
+    <link rel="stylesheet" href="../../Css/sharedDash/shared.css">
+    <link rel="stylesheet" href="../../Css/student/courseDetails.css">
+</head>
+
+<body>
+    <div class="bg-overlay show"></div>
+    <!-- 
+        side bar 
+    -->
+    <aside class="">
+        <div class="logo-container">
+            <img src="../../Assests/Rassel-2.png" alt="" srcset="">
+            <img src="../../Assests/image.png" alt="">
+        </div>
+        <div class="mCustomScrollbar1" data-mcs-theme="light">
+            <ul class="list-unstyled nav flex-column position-relative">
+                <li class="menu-title px-3 fw-bold text-white">
+                    <span>Title</span>
+                </li>
+                <li class="nav-item fw-bold text-white">
+                    <a class="menu-link main-link d-block active" data-bs-toggle="collapse" href="#homeMenu"
+                        role="button" aria-expanded="false" aria-controls="homeMenu">
+                        <i class="fa fa-home "></i>
+
+                        <span>Home</span>
+                    </a>
+                    <ul class="dropdown-menu pt-0  collapse" id="homeMenu">
+                        <li class="nav-item fw-bold text-white">
+                            <a class="" href="">Home</a>
+                        </li>
+                        <li class="nav-item fw-bold text-white">
+                            <a class="menu-link" data-bs-toggle="collapse" href="#homeMenu1" role="button"
+                                aria-expanded="false" aria-controls="homeMenu1">Home</a>
+                            <ul class="dropdown-menu pt-0  collapse" id="homeMenu1">
+                                <li class="nav-item fw-bold text-white">
+                                    <a class="" href="">Home</a>
+                                </li>
+                                <li class="nav-item fw-bold text-white">
+                                    <a class="" href="">Home</a>
+                                </li>
+                                <li class="nav-item fw-bold text-white">
+                                    <a class="" href="">Home</a>
+                                </li>
+                                <li class="nav-item fw-bold text-white">
+                                    <a class="" href="">Home</a>
+                                </li>
+                                <li class="nav-item fw-bold text-white">
+                                    <a class="" href="">Home</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item fw-bold text-white">
+                            <a class="" href="">Home</a>
+                        </li>
+                        <li class="nav-item fw-bold text-white">
+                            <a class="" href="">Home</a>
+                        </li>
+                        <li class="nav-item fw-bold text-white">
+                            <a class="" href="">Home</a>
+                        </li>
+                    </ul>
+
+                </li>
+                <li class="menu-title px-3 fw-bold text-white">
+                    <span>Title</span>
+                </li>
+                <li class="nav-item fw-bold text-white">
+                    <a class="menu-link main-link d-block active" data-bs-toggle="collapse" href="#homeMenu"
+                        role="button" aria-expanded="false" aria-controls="homeMenu">
+                        <i class="fa fa-home "></i>
+
+                        <span>Home</span>
+                    </a>
+                    <ul class="dropdown-menu pt-0  collapse" id="homeMenu">
+                        <li class="nav-item fw-bold text-white">
+                            <a class="" href="">Home</a>
+                        </li>
+                        <li class="nav-item fw-bold text-white">
+                            <a class="menu-link" data-bs-toggle="collapse" href="#homeMenu1" role="button"
+                                aria-expanded="false" aria-controls="homeMenu1">Home</a>
+                            <ul class="dropdown-menu pt-0  collapse" id="homeMenu1">
+                                <li class="nav-item fw-bold text-white">
+                                    <a class="" href="">Home</a>
+                                </li>
+                                <li class="nav-item fw-bold text-white">
+                                    <a class="" href="">Home</a>
+                                </li>
+                                <li class="nav-item fw-bold text-white">
+                                    <a class="" href="">Home</a>
+                                </li>
+                                <li class="nav-item fw-bold text-white">
+                                    <a class="" href="">Home</a>
+                                </li>
+                                <li class="nav-item fw-bold text-white">
+                                    <a class="" href="">Home</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item fw-bold text-white">
+                            <a class="" href="">Home</a>
+                        </li>
+                        <li class="nav-item fw-bold text-white">
+                            <a class="" href="">Home</a>
+                        </li>
+                        <li class="nav-item fw-bold text-white">
+                            <a class="" href="">Home</a>
+                        </li>
+                    </ul>
+
+                </li>
+
+
+            </ul>
+
+        </div>
+
+
+    </aside>
+
+    <!-- header -->
+    <header class="">
+        <div class="aside-toggle ">
+            <div class="toggle ">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="input-group">
+            <i class="fa fa-search"></i>
+            <input type="text" placeholder="Search...">
+        </div>
+        <ul class="nav navbar-nav nav-right flex-row">
+            <li class="nav-item search">
+                <a href="#" class="nav-link position-relative search-link">
+
+                    <i class="fa fa-search"></i>
+                </a>
+            </li>
+            <li class="nav-item lang">
+                <a class="nav-link lang-link" href="#">
+                    <span class="fi fi-us fis me-1 ms-1">
+                </a>
+                <ul class="dropdown-menu">
+                    <li>
+                        <a href="" class="nav-link text-center">
+                            <span class="fi fi-us fis me-4 ms-3"></span>
+                            English
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="nav-link text-center">
+                            <span class="fi fi-fr fis me-4 ms-3"></span>
+                            French
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="nav-link text-center">
+                            <span class="fi fi-sa fis me-4 ms-3"></span>
+                            Arabic
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="nav-item notification">
+                <a href="#" class="nav-link position-relative noti-link">
+                    <div class="text-white position-absolute noti-num">
+                        2
+                    </div>
+                    <i class="far fa-bell"></i>
+                </a>
+                <div class="card noti-container">
+                    <div class="card-header">
+                        <h6> <span>Notification</span>
+                            <p class="badge badge-soft-light fs-13" style="background-color: rgba(243,246,249,.1);">
+                                <span>4</span> New
+                            </p>
+                        </h6>
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link active" role="presentation" id="all-tab"
+                                    data-bs-toggle="tab" data-bs-target="#all" type="button" role="tab"
+                                    aria-controls="all" aria-selected="true">
+                                    All (4)
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link " role="presentation" id="Messages-tab" data-bs-toggle="tab"
+                                    data-bs-target="#Messages" type="button" role="tab" aria-controls="Messages"
+                                    aria-selected="false">
+                                    Messages
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link " role="presentation" id="Alerts-tab" data-bs-toggle="tab"
+                                    data-bs-target="#Alerts" type="button" role="tab" aria-controls="Alerts"
+                                    aria-selected="false">
+                                    Alerts
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card-body mCustomScrollbar1" data-mcs-theme="dark">
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="all" role="tabpanel" aria-labelledby="all-tab">
+                                <a href="" class="message-container">
+                                    <div class="message-img">
+                                        <i class="fa fa-user"></i>
+                                    </div>
+                                    <div>
+                                        <p class="message-title">Message Title</p>
+                                        <p class="message-content">Message Content , Message Content</p>
+                                        <p class="message-date"><i class="fa fa-clock"></i> JUST 30 SEC AGO</p>
+                                    </div>
+
+                                </a>
+                                <a href="" class="message-container">
+                                    <div class="message-img">
+                                        <i class="fa fa-user"></i>
+                                    </div>
+                                    <div>
+                                        <p class="message-title">Message Title</p>
+                                        <p class="message-content">Message Content , Message Content</p>
+                                        <p class="message-date"><i class="fa fa-clock"></i> JUST 30 SEC AGO</p>
+                                    </div>
+
+                                </a>
+                                <a href="" class="message-container">
+                                    <div class="message-img">
+                                        <i class="fa fa-user"></i>
+                                    </div>
+                                    <div>
+                                        <p class="message-title">Message Title</p>
+                                        <p class="message-content">Message Content , Message Content</p>
+                                        <p class="message-date"><i class="fa fa-clock"></i> JUST 30 SEC AGO</p>
+                                    </div>
+
+                                </a>
+                                <a href="" class="message-container">
+                                    <div class="message-img">
+                                        <i class="fa fa-user"></i>
+                                    </div>
+                                    <div>
+                                        <p class="message-title">Message Title</p>
+                                        <p class="message-content">Message Content , Message Content</p>
+                                        <p class="message-date"><i class="fa fa-clock"></i> JUST 30 SEC AGO</p>
+                                    </div>
+
+                                </a>
+                            </div>
+                            <div class="tab-pane fade" id="Messages" role="tabpanel" aria-labelledby="Messages-tab"> <a
+                                    href="" class="message-container">
+                                    <div class="message-img">
+                                        <i class="fa fa-user"></i>
+                                    </div>
+                                    <div>
+                                        <p class="message-title">Message Title</p>
+                                        <p class="message-content">Message Content , Message Content</p>
+                                        <p class="message-date"><i class="fa fa-clock"></i> JUST 30 SEC AGO</p>
+                                    </div>
+
+                                </a>
+                                <a href="" class="message-container">
+                                    <div class="message-img">
+                                        <i class="fa fa-user"></i>
+                                    </div>
+                                    <div>
+                                        <p class="message-title">Message Title</p>
+                                        <p class="message-content">Message Content , Message Content</p>
+                                        <p class="message-date"><i class="fa fa-clock"></i> JUST 30 SEC AGO</p>
+                                    </div>
+
+                                </a>
+                                <a href="" class="message-container">
+                                    <div class="message-img">
+                                        <i class="fa fa-user"></i>
+                                    </div>
+                                    <div>
+                                        <p class="message-title">Message Title</p>
+                                        <p class="message-content">Message Content , Message Content</p>
+                                        <p class="message-date"><i class="fa fa-clock"></i> JUST 30 SEC AGO</p>
+                                    </div>
+
+                                </a>
+                            </div>
+                            <div class="tab-pane fade" id="Alerts" role="tabpanel" aria-labelledby="Alerts-tab">..sadad.
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item profile">
+                <a href="#" class="nav-link prof-link">
+                    <i class="far fa-user"></i>
+                </a>
+                <ul class="dropdown-menu ">
+                    <li>
+                        <p class="p-2 mb-0 fw-bolder" style="font-size: 12px; padding-left: .8rem !important;">Welcom
+                            User !</p>
+                    </li>
+                    <li>
+
+                        <a href="" class="nav-link text-center">
+                            <i class="fa fa-user-circle me-2"></i>
+                            Profile
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="nav-link text-center">
+                            <i class="fa fa-message me-2"></i>
+                            Message
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="nav-link text-center">
+                            <i class="fa fa-life-ring me-2"></i>
+                            Help
+                        </a>
+                    </li>
+                    <hr>
+                    <li>
+                        <a href="" class="nav-link text-center">
+                            <i class="fa fa-wallet me-2"></i>
+                            Balance : <span style="color: black;">$12312</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="nav-link text-center">
+                            <i class="fa fa-cog me-2"></i>
+                            Settings
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="nav-link text-center">
+                            <i class="fa fa-sign-out me-2"></i>
+                            Logout
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </header>
+
+    <!-- Main -->
+    <main class="">
+        <div class="container-fluid py-4">
+            <div class="row mx-0">
+               <div class="col-12">
+
+                <!-- Course Title -->
+                    <div class="card shadow mb-3">
+                        <div class="card-body pb-0 mx-0">
+                           <div class="d-flex mb-3">
+                            <div class="icon-container bg-light rounded-2 me-2">
+                                <img src="../../Assests/img-1.png" alt="" class="img-fluid w-100 h-100">
+                            </div>
+                            <div class="course-details">
+                                <h3 class="card-title">
+                                    Course Name
+                                </h3>
+                                <p> <span class="teacherName">by:<strong>Teacher Name</strong></span> <span class="text-muted">|</span> <span class="lessonsNumebr">Lessons Numebr :<strong>18</strong></span> <span class="text-muted">|</span> <span class="startDate">Start Date:<strong>20-11-2023</strong></span> <span class="text-muted">|</span> <span class="endDate">End Date:<strong>20-11-2023</strong></span> <span class="text-muted">|</span> <span class="status"><span class="badge bg-warning text-white ">In Progress</span></span>  </p>
+                            </div>
+                           </div>
+                           <ul class="nav nav-tabs border-bottom-0" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <a class="nav-link mb-0 position-relative fw-bold active border-0" id="overview-tab" data-bs-toggle="tab" href="#course-overview" data-bs-target="#course-overview" role="tab" aria-selected="true">
+                                        Overview
+                                    </a>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <a class="nav-link mb-0 position-relative fw-bold border-0" data-bs-toggle="tab" id="lessons-tab" href="#course-lessons" data-bs-target="#course-lessons" role="tab" aria-selected="false">
+                                        Lessons
+                                    </a>
+                                </li>
+                           </ul>
+                        </div>
+                    </div>
+               </div>
+               <div class="tab-content col-12 p-0">
+                <div class=" row mx-0 px-0 tab-pane fade active show" id="course-overview" role="tabpanel" aria-labelledby="overview-tab">
+                    <div class="row mx-0 p-0">
+                        <div class="col-xl-9 col-12">
+                            <!-- Course Overview -->
+                            <div class="card shadow mb-3">
+                                <div class="card-body">
+                                    <!-- course Summary -->
+                                    <div class="card-title fw-bold">
+                                        Summary
+                                    </div>
+                                    <p class="text-muted courseSummary">It will be as simple as occidental in fact, it will be Occidental. To an English person, it will seem like simplified English, as a skeptical Cambridge friend of mine told me what Occidental is. The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words.</p>
+                                    <!-- Course Content -->
+                                    <ul class="ps-4 d-grid gap-2 text-muted courseContent">
+                                        <li>Product Design, Figma (Software), Prototype</li>
+                                        <li>Four Dashboards : Ecommerce, Analytics, Project,etc.</li>
+                                        <li>Create calendar, chat and email app pages.</li>
+                                        <li>Add authentication pages.</li>
+                                        <li>Content listing.</li>
+                                    </ul>
+                                    <hr>
+                                    <!-- course ectraInfo -->
+                                    <div class="row mx-0 courseInfo">
+                                        <div class="col-xl-3 col-12 ps-0">
+                                            <div>
+                                                <p class="mb-2 text-uppercase text-muted fw-bold courseInfo-teacherName">By :</p>
+                                                <h6 class=" mb-0">Teacher Name</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-3 col-12 ps-0">
+                                            <div>
+                                                <p class="mb-2 text-uppercase text-muted fw-bold courseInfo-startDate">Start Date :</p>
+                                                <h6 class=" mb-0">15 Sep, 2021</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-3 col-12 ps-0">
+                                            <div>
+                                                <p class="mb-2 text-uppercase text-muted fw-bold courseInfo-endDate">End Date :</p>
+                                                <h6 class=" mb-0">15 Sep, 2021</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-3 col-12 ps-0">
+                                            <div>
+                                                <p class="mb-2 text-uppercase text-muted fw-bold courseInfo-status">Progress :</p>
+                                                <h6 class=" mb-0"><div class="badge badge-soft-warning">In Progress</div></h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <!-- Resources -->
+                                    <div class="row mx-0 Resources">
+                                        <div class="col-4">
+                                            <div class="resource rounded border-1 p-1">
+                                                <div class="d-flex align-items-center">
+                                                    <div style="width:50px ; height: 50px;" class="icon-container-sm bg-light rounded d-flex align-items-center justify-content-center me-2">
+                                                        <i class="fa fa-file-zipper"></i>
+                                                    </div>
+                                                    <div class="flex-grow-1 overflow-hidden">
+                                                        <h5 class="fs-13 mb-1"><a href="#" class="text-body text-truncate text-decoration-none fw-bold d-block">App pages.zip</a></h5>
+                                                        <div>2.2MB</div>
+                                                    </div>
+                                                    <button class="btn shadow-none"> <i class="fa fa-download text-muted"></i> </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Comments -->
+                            <div class="card shadow mb-3">
+                                <div class="card-header bg-white py-3">
+                                    <h5 class="card-title mb-0 flex-grow-1">Comments</h5>
+                                </div>
+                                <div class="card-body">
+                                    <div class="tab-content">
+                                        <div class="tab-pane active show" id="home-1" role="tabpanel">
+                                            <div class="d-flex mb-4">
+                                                <div class="flex-shrink-0">
+        
+                                                </div>
+                                                <div class="flex-grow-1 ms-3">
+                                                    <h5 class="fs-13"><span class="text-body">Joseph
+                                                            Parker</span> <small class="text-muted">20 Dec 2021 - 05:47AM</small>
+                                                    </h5>
+                                                    <p class="text-muted">I am getting message from customers that when they
+                                                        place order always get error message .</p>
+                                                    <div class="d-flex mt-4">
+                                                        <div class="flex-shrink-0">
+        
+                                                        </div>
+        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex mb-4">
+                                                <div class="flex-shrink-0">
+        
+                                                </div>
+                                                <div class="flex-grow-1 ms-3">
+                                                    <h5 class="fs-13"><span class="text-body">Thomas
+                                                            Taylor</span> <small class="text-muted">24 Dec 2021 - 05:20PM</small>
+                                                    </h5>
+                                                    <p class="text-muted">If you have further questions, please contact Customer
+                                                        Support from the “Action Menu” on your </p>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex">
+                                                <div class="flex-shrink-0">
+        
+                                                </div>
+        
+                                            </div>
+                                        </div>
+                                        <form class="mt-4">
+                                            <div class="row g-3">
+                                                <div class="col-lg-12">
+                                                    <label for="exampleFormControlTextarea1" class="form-label">Leave a
+                                                        Comments</label>
+                                                    <textarea class="form-control bg-light border-light shadow-none" id="exampleFormControlTextarea1" rows="3" placeholder="Enter comments"></textarea>
+                                                </div>
+                                                <!--end col-->
+                                                <div class="col-12 text-end">
+                                                    <a href="javascript:void(0);" class="btn btn-success shadow">Post Comments</a>
+                                                </div>
+                                            </div>
+                                            <!--end row-->
+                                        </form>
+                                    </div>                              
+                                    <!--end tab-pane-->
+        
+        
+                                </div>
+                            </div>
+                       </div>
+                       <div class="col-xl-3 col-12">
+                        <div class="card shadow mb-3 enroll-container">
+                            <div class="card-header py-2 bg-white">
+                                <h6 class="card-title mb-0 flex-grow-1">Enroll</h6>
+                            </div>
+                            <div class="card-body">
+                                <button class="btn btn-primary shadow">Enroll</button>
+                            </div>
+                        </div>
+                            <div class="card shadow mb-3">
+                                <div class="card-header bg-white py-2">
+                                    <h6 class="card-title mb-0 flex-grow-1">Students</h6>
+                                </div>
+                                <div style="height: 280px ; overflow-y: scroll;" class="card-body students-container">
+                                        <div class="student d-flex align-items-center mb-3">
+                                            <div class="name-container rounded-circle p-2 badge-soft-primary fw-bold me-2">
+                                                AH
+                                            </div>
+                                            <p class="studentName text-black fw-bold m-0">
+                                                Ahmed EL Hosseny
+                                            </p>
+                                            <div class="dropdown ms-auto">
+                                                <button class="btn btn-icon btn-sm  shadow-none text-muted dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    <i class="fa fa-ellipsis-h"></i>
+                                                </button>
+                                                <ul class="dropdown-menu" style="">
+                                                    <li><a class="dropdown-item d-flex align-items-center" href="javascript:void(0);"><i class="fa fa-eye me-2 align-bottom text-muted"></i>View</a></li>
+                                                    <li><a class="dropdown-item d-flex align-items-center" href="javascript:void(0);"><i class="fa fa-trash text-muted me-2 align-bottom"></i>Delete</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="student d-flex align-items-center mb-3">
+                                            <div class="name-container rounded-circle p-2 badge-soft-primary fw-bold me-2">
+                                                AH
+                                            </div>
+                                            <p class="studentName text-black fw-bold m-0">
+                                                Ahmed EL Hosseny
+                                            </p>
+                                            <div class="dropdown ms-auto">
+                                                <button class="btn btn-icon btn-sm  shadow-none text-muted dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    <i class="fa fa-ellipsis-h"></i>
+                                                </button>
+                                                <ul class="dropdown-menu" style="">
+                                                    <li><a class="dropdown-item d-flex align-items-center" href="javascript:void(0);"><i class="fa fa-eye me-2 align-bottom text-muted"></i>View</a></li>
+                                                    <li><a class="dropdown-item d-flex align-items-center" href="javascript:void(0);"><i class="fa fa-trash text-muted me-2 align-bottom"></i>Delete</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="student d-flex align-items-center mb-3">
+                                            <div class="name-container rounded-circle p-2 badge-soft-primary fw-bold me-2">
+                                                AH
+                                            </div>
+                                            <p class="studentName text-black fw-bold m-0">
+                                                Ahmed EL Hosseny
+                                            </p>
+                                            <div class="dropdown ms-auto">
+                                                <button class="btn btn-icon btn-sm  shadow-none text-muted dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    <i class="fa fa-ellipsis-h"></i>
+                                                </button>
+                                                <ul class="dropdown-menu" style="">
+                                                    <li><a class="dropdown-item d-flex align-items-center" href="javascript:void(0);"><i class="fa fa-eye me-2 align-bottom text-muted"></i>View</a></li>
+                                                    <li><a class="dropdown-item d-flex align-items-center" href="javascript:void(0);"><i class="fa fa-trash text-muted me-2 align-bottom"></i>Delete</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="student d-flex align-items-center mb-3">
+                                            <div class="name-container rounded-circle p-2 badge-soft-primary fw-bold me-2">
+                                                AH
+                                            </div>
+                                            <p class="studentName text-black fw-bold m-0">
+                                                Ahmed EL Hosseny
+                                            </p>
+                                            <div class="dropdown ms-auto">
+                                                <button class="btn btn-icon btn-sm  shadow-none text-muted dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    <i class="fa fa-ellipsis-h"></i>
+                                                </button>
+                                                <ul class="dropdown-menu" style="">
+                                                    <li><a class="dropdown-item d-flex align-items-center" href="javascript:void(0);"><i class="fa fa-eye me-2 align-bottom text-muted"></i>View</a></li>
+                                                    <li><a class="dropdown-item d-flex align-items-center" href="javascript:void(0);"><i class="fa fa-trash text-muted me-2 align-bottom"></i>Delete</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="student d-flex align-items-center mb-3">
+                                            <div class="name-container rounded-circle p-2 badge-soft-primary fw-bold me-2">
+                                                AH
+                                            </div>
+                                            <p class="studentName text-black fw-bold m-0">
+                                                Ahmed EL Hosseny
+                                            </p>
+                                            <div class="dropdown ms-auto">
+                                                <button class="btn btn-icon btn-sm  shadow-none text-muted dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    <i class="fa fa-ellipsis-h"></i>
+                                                </button>
+                                                <ul class="dropdown-menu" style="">
+                                                    <li><a class="dropdown-item d-flex align-items-center" href="javascript:void(0);"><i class="fa fa-eye me-2 align-bottom text-muted"></i>View</a></li>
+                                                    <li><a class="dropdown-item d-flex align-items-center" href="javascript:void(0);"><i class="fa fa-trash text-muted me-2 align-bottom"></i>Delete</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="student d-flex align-items-center mb-3">
+                                            <div class="name-container rounded-circle p-2 badge-soft-primary fw-bold me-2">
+                                                AH
+                                            </div>
+                                            <p class="studentName text-black fw-bold m-0">
+                                                Ahmed EL Hosseny
+                                            </p>
+                                            <div class="dropdown ms-auto">
+                                                <button class="btn btn-icon btn-sm  shadow-none text-muted dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    <i class="fa fa-ellipsis-h"></i>
+                                                </button>
+                                                <ul class="dropdown-menu" style="">
+                                                    <li><a class="dropdown-item d-flex align-items-center" href="javascript:void(0);"><i class="fa fa-eye me-2 align-bottom text-muted"></i>View</a></li>
+                                                    <li><a class="dropdown-item d-flex align-items-center" href="javascript:void(0);"><i class="fa fa-trash text-muted me-2 align-bottom"></i>Delete</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="student d-flex align-items-center mb-3">
+                                            <div class="name-container rounded-circle p-2 badge-soft-primary fw-bold me-2">
+                                                AH
+                                            </div>
+                                            <p class="studentName text-black fw-bold m-0">
+                                                Ahmed EL Hosseny
+                                            </p>
+                                            <div class="dropdown ms-auto">
+                                                <button class="btn btn-icon btn-sm  shadow-none text-muted dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    <i class="fa fa-ellipsis-h"></i>
+                                                </button>
+                                                <ul class="dropdown-menu" style="">
+                                                    <li><a class="dropdown-item d-flex align-items-center" href="javascript:void(0);"><i class="fa fa-eye me-2 align-bottom text-muted"></i>View</a></li>
+                                                    <li><a class="dropdown-item d-flex align-items-center" href="javascript:void(0);"><i class="fa fa-trash text-muted me-2 align-bottom"></i>Delete</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        
+                                </div>
+                            </div>
+                            
+                       </div>
+                    </div>
+                   </div>
+                   <div class=" row mx-0 px-0 tab-pane fade" id="course-lessons" role="tabpanel" aria-labelledby="lessons-tab">
+                        <div class="row mx-0 px-0">
+                            <div class="col-12">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center mb-4">
+                                            <h5 class="card-title flex-grow-1">Lessons</h5>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <div style="padding-bottom: 100px;" class="table-responsive table-card">
+                                                    <table class="table table-borderless align-middle mb-0">
+                                                        <thead class="table-light">
+                                                            <tr>
+                                                                <th scope="col">Lesson title</th>
+                                                                <th scope="col">Type</th>
+                                                                <th scope="col">Duration</th>
+                                                                <th scope="col">Start Date</th>
+                                                                <th scope="col" style="width: 120px;">Action</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>
+                                                                    <div class="d-flex align-items-center">
+                                                                        <div class="icon-container-sm p-3 bg-light text-success rounded fs-24">
+                                                                            
+                                                                                <i class="fa fa-file-circle-check"></i>
+                                                                        </div>
+                                                                        <div class="ms-3 flex-grow-1">
+                                                                            <h6 class=" mb-0"><a href="javascript:void(0)" class="text-dark text-decoration-none fw-bold">Artboard-documents.zip</a></h6>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                                <td>Zip File</td>
+                                                                <td>4.57 MB</td>
+                                                                <td>12 Dec 2021</td>
+                                                                <td>
+                                                                    <div class="dropdown">
+                                                                        <a href="javascript:void(0);" class="btn btn-soft-secondary shadow-none btn-sm btn-icon" data-bs-toggle="dropdown" aria-expanded="false">
+                                                                            <i class="fa fa-ellipsis-h"></i>
+                                                                        </a>
+                                                                        <ul class="dropdown-menu dropdown-menu-end" style="">
+                                                                            <li><a class="dropdown-item d-flex align-items-center" href="javascript:void(0);"><i class="fa fa-eye me-2 align-bottom text-muted"></i>View</a></li>
+                                                                            <li class="dropdown-divider"></li>
+                                                                            <li><a class="dropdown-item d-flex align-items-center" href="javascript:void(0);"><i class="fa fa-trash me-2 align-bottom text-muted"></i>Delete</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            
+                                                           
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                   </div>
+               </div>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="../../Js/Shared/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+
+    <script src="../../Js/Shared/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.0/jquery-migrate.min.js"
+        integrity="sha512-QDsjSX1mStBIAnNXx31dyvw4wVdHjonOwrkaIhpiIlzqGUCdsI62MwQtHpJF+Npy2SmSlGSROoNWQCOFpqbsOg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="//cdn.jsdelivr.net/jquery.mcustomscrollbar/3.0.6/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+
+    <script src="../../Js/sharedDash/shared.js"></script>
+    <script src="../../Js/student/courseDetails.js"></script>
+</body>
+
+</html>

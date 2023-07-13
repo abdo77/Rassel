@@ -1,0 +1,151 @@
+.avtr-sm{
+    height: 3rem;
+    width: 3rem;
+}
+main h1,main h2,main h3,main h4,main h5,main h6{
+    color: #495057;
+    
+}
+main h5 ,main .h5{
+    font-size: 1.015625rem;
+}
+main .text-muted{
+    color: #878a99!important;
+}
+.text-success{
+    color: rgb(10,179,156) !important;
+}
+.main-font{
+    font-size: 0.8125rem !important;
+}
+
+.apexcharts-text {
+    font-weight: bold;
+    font-family: 'Inter', sans-serif !important;
+font-family: 'Poppins', sans-serif !important;
+}
+.table-card td:first-child, .table-card th:first-child {
+    padding-left: 16px;
+}
+.table>:not(caption)>*>*{
+    padding: .75rem .6rem;
+}
+.fs-16{
+    font-size: 16px !important;
+}
+.fs-11{
+    font-size: 11px;
+}
+.fs-10{
+    font-size: 10px !important;
+}
+.fs-12{
+    font-size: 12px !important;
+}
+.fs-14{
+    font-size: 14px;
+}
+.fs-13{
+    font-size: 13px;
+}
+main .h4,main h4 {
+    font-size: 1.21875rem;
+}
+.badge-soft-success {
+    color: #0ab39c;
+    background-color: rgba(10,179,156,.1);
+}
+.badge-soft-warning {
+    color: #f7b84b;
+    background-color: rgba(247,184,75,.1);
+}
+.badge-soft-danger {
+    color: #f06548;
+    background-color: rgba(240,101,72,.1);
+}
+.link-primary , .text-primary {
+    color: #405189!important;
+}
+.fw-medium {
+    font-weight: 500;
+}
+.avtr-xs{
+    height: 2rem;
+    width: 2rem;
+}
+.apexcharts-inner{
+    height: 100% !important;
+}
+td{
+    font-weight: 600;
+}
+.fw-medium {
+    font-weight: 500;
+}
+.bg-soft-primary {
+    background-color: rgba(64,81,137,.18)!important;
+}
+.bg-soft-warning {
+    background-color: rgba(247,184,75,.18)!important;
+}
+.bg-soft-info {
+    background-color: rgba(41,156,219,.18)!important;
+}
+.bg-soft-info {
+    background-color: rgba(41,156,219,.18)!important;
+}
+.text-info{
+    color: rgb(41,156,219);
+}
+
+@media (min-width: 768px) {
+    .animate {
+      animation-duration: 0.3s;
+      top: auto !important;
+      bottom: auto  !important;
+      -webkit-animation-duration: 0.3s;
+      animation-fill-mode: both;
+        inset: auto 0px auto auto  !important;
+      -webkit-animation-fill-mode: both;
+    }
+  }
+  
+  @keyframes slideIn {
+    0% {
+      transform: translateY(1rem);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: translateY(0rem);
+      opacity: 1;
+    }
+  
+    0% {
+      transform: translateY(1rem);
+      opacity: 0;
+    }
+  }
+  
+  @-webkit-keyframes slideIn {
+    0% {
+      -webkit-transform: transform;
+      -webkit-opacity: 0;
+    }
+  
+    100% {
+      -webkit-transform: translateY(0);
+      -webkit-opacity: 1;
+    }
+  
+    0% {
+      -webkit-transform: translateY(1rem);
+      -webkit-opacity: 0;
+    }
+  }
+  
+  .slideIn {
+    -webkit-animation-name: slideIn;
+    animation-name: slideIn;
+  }
+  

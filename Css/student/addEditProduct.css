@@ -1,0 +1,263 @@
+main{
+    font-size: .8125rem;
+
+}
+
+.form-control:focus ,.form-select:focus{
+    color: #212529;
+    cursor: pointer;
+    background-color:#fff;
+    border-color: #a59cd9;
+    outline: 0;
+    -webkit-box-shadow: 0 0 0 0 rgb(75 56 179 / 25%);
+    box-shadow: 0 0 0 0 rgb(75 56 179 / 25%);
+}
+.fs-14{
+    font-size: 14px !important;
+}
+.fs-10{
+    font-size: 10px !important;
+}
+.avatar-title {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #4b38b3;
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-weight: 500;
+    height: 100%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+}
+.avatar-lg {
+    height: 6rem;
+    width: 6rem;
+}
+.avatar-xs {
+    height: 2rem;
+    width: 2rem;
+}
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.avatar-title {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #4b38b3;
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-weight: 500;
+    height: 100%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+}
+main .card-title {
+    font-size: 16px;
+    margin: 0 0 7px 0;
+}
+
+main .card-header{
+    background-color: white;
+}
+main .card{
+    margin-bottom: 1.5rem;
+    box-shadow: 0 3px 3px rgba(56,65,74,0.1);
+}
+.dropzone.dz-clickable {
+    cursor: pointer;
+}
+.dropzone {
+    min-height: 230px;
+    border: 2px dashed #e9ebec;
+    background: #fff;
+    border-radius: 6px;
+}
+.dropzone .dz-message {
+    font-size: 24px;
+    width: 100%;
+    margin: 1em 0;
+}
+.nav-tabs-custom .nav-item .nav-link.active {
+    color: #4b38b3;
+}
+
+.nav-tabs-custom.card-header-tabs .nav-link {
+    padding: 1rem 1rem;
+}
+.nav-tabs-custom .nav-item .nav-link {
+    border: none;
+    font-weight: 500;
+    color: #4b38b3;
+}
+.nav-tabs-custom .nav-item .nav-link.active:after {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.nav-tabs-custom .nav-item .nav-link::after {
+    content: "";
+    background: #4b38b3;
+    height: 1px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    -webkit-transition: all 250ms ease 0s;
+    transition: all 250ms ease 0s;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+.nav-tabs-custom .nav-item .nav-link::after {
+    content: "";
+    background: #4b38b3;
+    height: 1px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    -webkit-transition: all 250ms ease 0s;
+    transition: all 250ms ease 0s;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+.nav-tabs-custom.card-header-tabs .nav-link {
+    padding: 1rem 1rem;
+    position: relative;
+}
+
+.nav-tabs-custom .nav-item .nav-link {
+    border: none;
+    font-weight: 500;
+}
+main .form-control , main .form-select{
+    font-size: .8125rem;
+}
+.btn {
+    -webkit-box-shadow: 0 3px 3px rgba(56,65,74,0.1);
+    box-shadow: 0 3px 3px rgba(56,65,74,0.1);
+}
+.w-sm {
+    min-width: 95px;
+}
+.btn-success {
+    color: #fff;
+    background-color: #45CB85;
+    border-color: #45CB85;
+    font-size: .8125rem;
+}
+.btn-success:hover{
+    color: #fff;
+    background-color: #3bad71;
+    border-color: #37a26a;
+}
+.flatpickr-months {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #4b38b3;
+    border-radius: 5px 5px 0 0;
+}
+.flatpickr-current-month {
+    font-size: 100%;
+    line-height: inherit;
+    font-weight: 300;
+    color: inherit;
+    position: absolute;
+    width: 75%;
+    left: 12.5%;
+    padding: 7.48px 0 0 0;
+    line-height: 1;
+    height: 34px;
+    display: inline-block;
+    text-align: center;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+.flatpickr-weekdays {
+    background-color: #4b38b3;
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 36px;
+    border-bottom: 1px solid var(--vz-border-color);
+}
+span.flatpickr-weekday {
+    cursor: default;
+    font-size: 90%;
+    background: #4b38b3;
+    color: #fff;
+    line-height: 1;
+    margin: 0;
+    text-align: center;
+    display: block;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    font-weight: 500;
+}
+
+.flatpickr-months .flatpickr-month {
+    background: #4b38b3;
+    color: rgba(255,255,255,.9);
+    fill: rgba(255,255,255,.9);
+    height: 34px;
+    line-height: 1;
+    text-align: center;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    overflow: hidden;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+.flatpickr-months .flatpickr-next-month, .flatpickr-months .flatpickr-prev-month {
+    text-decoration: none;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    height: 34px;
+    padding: 10px;
+    z-index: 3;
+    color: rgba(255,255,255,.9);
+    fill: rgba(255,255,255,.9);
+}
+.flatpickr-months .flatpickr-next-month:hover, .flatpickr-months .flatpickr-prev-month:hover {
+    color: #959ea9 !important;
+}
+.flatpickr-months .flatpickr-next-month:hover svg, .flatpickr-months .flatpickr-prev-month:hover svg {
+    fill: rgba(255,255,255,.9);
+}
+.flatpickr-day.endRange, .flatpickr-day.endRange.inRange, .flatpickr-day.endRange.nextMonthDay, .flatpickr-day.endRange.prevMonthDay, .flatpickr-day.endRange:focus, .flatpickr-day.endRange:hover, .flatpickr-day.selected, .flatpickr-day.selected.inRange, .flatpickr-day.selected.nextMonthDay, .flatpickr-day.selected.prevMonthDay, .flatpickr-day.selected:focus, .flatpickr-day.selected:hover, .flatpickr-day.startRange, .flatpickr-day.startRange.inRange, .flatpickr-day.startRange.nextMonthDay, .flatpickr-day.startRange.prevMonthDay, .flatpickr-day.startRange:focus, .flatpickr-day.startRange:hover {
+    background: #4b38b3;
+    -webkit-box-shadow: var(--vz-box-shadow);
+    box-shadow: var(--vz-box-shadow);
+    color: #fff;
+    border-color: #4b38b3;
+}
+.flatpickr-calendar.arrowTop::before {
+    border-bottom-color: #4b38b3;
+    
+}
+.flatpickr-calendar.arrowBottom::before {
+    border-top-color: #4b38b3;
+}

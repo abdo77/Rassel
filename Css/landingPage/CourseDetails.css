@@ -1,0 +1,100 @@
+button.overlay{
+    z-index: 2;
+    border: 0px;
+    left: 0;
+    background-color: #00000080;
+    top: 0;
+}
+
+button div{
+        width: 70px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+.card button  i{
+    font-size: 70px;
+    background-color: #2f55d4;
+    border-radius: 50%;
+    padding: 0px;
+    overflow: hidden;
+    transition: all .4s ease-in-out;
+    color: white;
+    box-shadow: 0 0 0 0 ;
+}
+.card button:hover i{
+    box-shadow: 0 0 4px 4px #bfbcbc;
+}
+.courseVideo .btn-primary{
+    background-color: #2f55d4;
+    font-weight: bold ;
+    padding-top: 10px;
+    box-shadow: none !important;
+    outline: none !important;
+    padding-bottom: 10px;
+}
+.card-body i{
+    width: 20px;
+    color: #2f55d4;
+}
+.card-body span {
+    font-size: 14px;
+}
+.text-muted{
+    color: #8b949f !important;
+}
+.courseSection .title{
+    cursor: pointer;
+    transition: all .5s ;
+}
+.courseSection .title p{
+    color: #122166;
+    font-weight: bold;
+    font-size: 18px;
+    transition: all .5s
+}
+
+.courseSection .title.show{
+    background-color: #2f55d4;
+    color: white !important;
+}
+.courseSection .title.show p{
+    color: white !important;
+}
+.courseSection .title.show i{
+    transform: rotate(180deg);
+}
+.courseSection .details{
+    height: 0px;
+    overflow: hidden;
+    padding: 0 !important;
+}
+.courseSection .title.show + .details{
+    padding: 1.5rem !important;
+    height: auto;
+}
+.bg-video-overlay{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    display: none;
+    height: 100%;
+    z-index: 1000;
+
+    align-items: center;
+    justify-content: center;
+    background-color: #000000cc;
+}
+.bg-video-overlay i{
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    cursor: pointer;
+}
+video{
+    width: 100%;
+    margin: auto;
+    max-width: 1140px;
+}

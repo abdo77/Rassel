@@ -1,0 +1,65 @@
+main{
+    padding-top: 70px;
+    font-size: 0.8125rem !important;
+}
+.link-primary:focus, .link-primary:hover {
+    color: #3c2d8f!important;
+}
+.link-primary{
+    color: #3c2d8f;
+    text-decoration: none;
+}
+
+main a,main p , main h6{
+    font-size: 0.8125rem;
+}
+.fs-14{
+    font-size: 14px;
+}
+.fs-11{
+    font-size: 11px;
+}
+.badge-soft-success {
+    color: #45cb85;
+    background-color: rgba(69,203,133,.1);
+}
+.table-nowrap td, .table-nowrap th {
+    white-space: nowrap;
+    font-size:0.8125rem ;
+    padding: .75rem .6rem;
+}
+.productsDetails{
+    max-width: 100% !important;
+    overflow-x: scroll !important
+}
+.table th {
+    font-weight: 600;
+}
+.table>head{
+    border-color: #e9ebec;
+}
+.table-active{
+    background-color: rgb(243,246,249) !important;
+    --bs-table-accent-bg :rgb(243,246,249)
+}
+
+.btn{
+    font-size:0.8125rem ;
+    outline: none !important;
+}
+.btn-primary{
+    background-color: #4b38b3;
+    border-color: #4b38b3 !important;
+}
+.btn-primary:hover, .btn-primary:focus{
+    background-color: #3c2d8f;
+    border-color: #3c2d8f !important;
+}
+.btn-success{
+    background-color: #37a26a;
+    border-color: #37a26a;
+}
+.btn-success:hover , .btn-success:focus{
+    background-color: #2f885a;
+    border-color: #2f885a;
+}

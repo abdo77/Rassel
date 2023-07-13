@@ -1,0 +1,213 @@
+.checkOut-div .card-header{
+    background-color: #f3f6f9;
+}
+.checkOut-div .card-header .nav-link{
+    border-radius: 0px;
+    border: 0px;
+    background-color: transparent ;
+    color: #212529;
+    font-weight: 600;
+    font-size: 15px;
+    height: 100%;
+    position: relative;
+}
+.checkOut-div .card-header .nav-link.active , .checkOut-div .card-header .nav-link:hover{
+    background-color: rgba(75,56,179,.1);
+    color: #4b38b3;
+}
+.checkOut-div .card-header i{
+    border-radius: 50%;
+    font-size: 16px ;
+    color: rgb(75,56,179);
+    background-color: rgba(75,56,179,.18)!important;
+}
+.checkOut-div .card-header .nav-item:not(:last-child) .nav-link.active::after{
+    content: '';
+    clip-path: polygon(0 0, 100% 50%, 0 100%);
+    position: absolute;
+    right: -13px;
+    background-color: rgba(75,56,179,.1);
+    height: 15px;
+    width: 10px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+main h5{
+    font-size: 1.015625rem;
+    color: #212529;
+}
+main h6{
+    font-size: 0.92rem;
+}
+main {
+    font-size: 0.8125rem;
+}
+.input-group .form-control , .input-group .form-select , .modal .form-control, .modal .form-select{
+    outline: none !important;
+    font-size: 0.8125rem;
+    box-shadow: none;
+}
+.input-group .form-control:focus , .input-group .form-select:focus , .modal .form-control:focus , .modal .form-select:focus{
+    border-color: #4b38b3;
+}
+.select2-results__option{
+    font-size: 0.8125rem;
+}
+.select2-results__option:hover{
+    background-color: #f3f6f9;
+}
+.select2-container--default .select2-results__option--highlighted.select2-results__option--selectable , .select2-container--default .select2-results__option--selected{
+    background-color:#f2f2f2 ;
+    color: black;
+}
+.select2-search--dropdown .select2-search__field {
+    padding: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.select2-container--default .select2-selection--single:focus{
+    border-color: #4b38b3;
+    transition: all .3s ease-in-out;
+}
+.select2-container--default .select2-search--dropdown .select2-search__field{
+    outline: none !important;
+    font-size:0.8125rem ;
+}
+.select2-container--default .select2-search--dropdown .select2-search__field{
+    border: 1px solid #ced4da;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered{
+    line-height: normal;
+    padding: .50rem .75rem;
+}
+.select2-container .select2-selection--single{
+    height: auto;
+    border-color: #ced4da;
+}
+.btn{
+    font-size:0.8125rem ;
+    outline: none !important;
+}
+.btn-primary{
+    background-color: #4b38b3;
+    border-color: #4b38b3 !important;
+}
+.btn-primary:hover, .btn-primary:focus{
+    background-color: #3c2d8f;
+    border-color: #3c2d8f !important;
+}
+.btn-success{
+    background-color: #37a26a;
+    border-color: #37a26a;
+    font-size: 0.7rem;
+}
+.btn-success:hover , .btn-success:focus{
+    background-color: #2f885a;
+    border-color: #2f885a;
+}
+.btn-light{
+    background-color: #f3f6f9;
+    border-color: #f3f6f9;
+}
+.btn-light:hover , .btn-light:focus{
+    background-color: #c0c1c3;
+    border-color: #c0c1c3;
+}
+.card .next{
+    padding-inline-end: 40px;
+    position: relative;
+}
+.card .next i{
+    background-color: rgba(255,255,255,.1);
+    padding: 5px 0px;
+    position: absolute;
+    right: -1;
+    height: 100%;
+    left: auto;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 33px;
+}
+.card .prev{
+    padding-inline-start: 40px;
+    position: relative;
+}
+.card .prev i{
+    background-color: rgba(255,255,255,.1);
+    padding: 5px 0px;
+    position: absolute;
+    left: -1;
+    height: 100%;
+    right:  auto;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 33px;
+}
+
+label.savedAddress-label , label.shipMethod-label , label.payment-label{
+    width: 100%;
+    border: 1px solid #ced4da;
+    cursor: pointer;
+    position: relative;
+}
+label.savedAddress-label.chosed , label.shipMethod-label.chosed , label.payment-label.chosed{
+    border: 1px solid #4b38b3;
+}
+label.savedAddress-label.chosed i ,  label.shipMethod-label.chosed i , label.payment-label.chosed div:first-child i{
+    color: #4b38b3;
+    visibility: visible;
+}
+label.savedAddress-label i , label.shipMethod-label i , label.payment-label div:first-child i{
+    visibility: hidden;
+}
+label.shipMethod-label i , label.payment-label div:first-child i{
+    position: absolute;
+    right: 7px;
+    top: 7px;
+}
+.text-body{
+    color: rgb(33,37,41);
+}
+.text-body i{
+    font-size: 10px;
+}
+.label-actions a{
+    text-decoration: none;
+
+}
+.label-actions.bg-light{
+    background-color: rgb(243,246,249) !important;
+    border: 1px solid #ced4da;
+    border-top: 0px;
+}
+.link-primary , .link-primary:hover{
+    color:#4b38b3;
+}
+.table-card td:first-child, .table-card th:first-child {
+    padding-left: 16px;
+}
+table td , th{
+    font-size:0.8125rem  ;
+    padding: .75rem .6rem !important;
+}
+.table th {
+    font-weight: 600;
+}
+.avatar-md {
+    height: 4.5rem;
+    width: 4.5rem;
+}
+.table-active{
+    --bs-table-accent-bg:  rgb(243,246,249) !important;
+    background-color: rgb(243,246,249) !important;
+}
+.danger-border{
+    border-color: red;
+}
